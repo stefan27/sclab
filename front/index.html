@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>sc.lab</title>
+
+    <script data-main="main.js" src="scripts/require.js"></script>
+    <link href="style/css/main.css" rel="stylesheet"/>
+</head>
+
+<body ng-controller="indexController">
+
+<div id="exec">
+    <div></div>
+</div>
+
+<header>
+
+    <div id="in-header">
+        <a href="#">
+            <div class="div-img"></div>
+        </a>
+
+
+        <div id="div-search">
+            <input id="input-search" type="text"/>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li><a href="#/Data/Data">Data</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Another</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<div id="wrapper-content">
+    <div id="content" ng-view></div>
+</div>
+
+
+</body>
+
+</html>

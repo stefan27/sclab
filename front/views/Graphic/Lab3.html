@@ -1,0 +1,15 @@
+<div ng-controller="Lab3cGraphic" ng-init="initializeController()">
+    <!--<div id="three-viewport" three-viewport></div>-->
+
+
+    <h3 class="content-h3">Choose image</h3>
+
+    <div class="gallery">
+        <img ng-repeat="link in links" ng-src="{{link.link}}" click-img img='img'>
+    </div>
+
+    <canvas lab3 img="img"></canvas>
+
+
+
+</div>

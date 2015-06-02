@@ -1,0 +1,330 @@
+@import "compass";
+@import "reset";
+@import "font";
+@import "octicon";
+@import "data";
+@import "lab";
+
+$fontMain: Helvetica, sans-serif;
+$fontHeader: Roboto-Condensed, sans-serif, Helvetica;
+$fontRoboto: Roboto-Condensed, Helvetica, sans-serif;
+$fontP: sans-serif, Helvetica;
+
+$colorText: #333333;
+$colorBack: #F4F4F4;
+$colorLine: #cbcbcb;
+$colorLineHover: #989898;
+$colorLink: #4183C4;
+$colorBackLight: #ffffff;
+
+
+/*_____________________________EXEC________________________*/
+
+#exec {
+    display: none;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: image-url('logo-hover.png') no-repeat 50% 50% ;
+    background-size: auto 500px;
+}
+
+#exec div {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBkEBQX9J10XAGYkAfaKvYEhAAAAAElFTkSuQmCC') repeat;
+}
+
+/*_____________________________HEADER______________________*/
+
+header {
+    background-color: $colorBack;
+    padding: 0;
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+#in-header {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+.div-img {
+    float: left;
+    margin-left: 20px;
+    width: 40px;
+    height: 110%;
+    background: image-url('logo.png') no-repeat;
+    background-size: contain;
+}
+
+.div-img:hover {
+    background: image-url('logo-hover.png') no-repeat;
+    background-size: contain;
+}
+
+/*_____________________________SEARCH______________________*/
+
+#div-search {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    float: left;
+    margin: 10px 0 0 20px;
+    width: 300px;
+    height: 30px;
+    background-color: $colorBackLight;
+    border: 1px solid $colorLine;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#div-search:hover {
+    border: 1px solid $colorLineHover;
+}
+
+#input-search, #input-search:hover, #input-search:active {
+    float: left;
+    width: 98%;
+    margin: 0 1%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    font: 16px/1 $fontRoboto;
+    background: none;
+    color: $colorText;
+}
+
+/*_____________________________NAV______________________*/
+
+header nav {
+    height: 100%;
+    float: right;
+    margin: 15px 20px 0 0;
+}
+
+header nav ul {
+    height: 100%;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 15px;
+    font: bold 18px/1 $fontRoboto;
+}
+
+header nav ul li a:hover {
+    color: $colorLink;
+}
+
+/*_____________________________CONTENT______________________*/
+
+div#wrapper-content {
+    height: auto;
+    margin: 0 auto;
+    width: 800px;
+}
+
+div#content {
+    word-break: break-all;
+    width: 95%;
+    height: auto;
+    margin: 30px auto;
+}
+
+/*_____________________________TEXT______________________*/
+
+h1.content-h1 {
+    margin-bottom: 10px;
+    font: 24px/2 $fontHeader;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+h2.content-h2 {
+    margin: 30px 0 10px 0;
+    font: 32px/1 $fontHeader;
+    color: $colorLink;
+}
+
+h2.content-h2 a {
+    color: #4183C4;
+}
+
+h2.content-h2 a:hover {
+    text-decoration: underline;
+}
+
+h3.content-h3 {
+    font: 20px/1 $fontHeader;
+    margin: 10px 0 5px 0;
+}
+
+ul.content-info {
+    margin: 0 0 20px 0;
+    font: 13px/1 $fontMain;
+}
+
+ul.content-info li {
+    margin-right: 15px;
+    display: inline;
+}
+
+ul.content-info li span {
+    z-index: 10;
+    position: relative;
+    bottom: 2px;
+}
+
+p.main-p {
+    clear: left;
+    margin-top: 10px;
+    font: 15px/1.4 $fontP;
+}
+
+/*_____________________________TABLE______________________*/
+
+table {
+    width: 100%;
+    box-sizing: border-box;
+    font: 16px/40px $fontRoboto;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+table > thead > tr {
+    border-bottom: 2px solid #dddddd;
+}
+
+table tr {
+    height: 30px;
+}
+
+table > tbody > tr {
+    border-top: 1px solid #dddddd;
+}
+
+table td, table th {
+    text-align: center;
+    padding-left: 5px;
+}
+
+table tbody tr:hover {
+    background-color: #F5F5F5;
+}
+
+table th {
+    font-weight: bold;
+}
+
+/*_____________________________SELECT______________________*/
+
+ul.select {
+    overflow: hidden;
+    margin: 15px 0;
+    font: 14px/30px $fontMain;
+    border: 1px solid #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #F8F8F8;
+}
+
+ul.select li {
+    color: #4183C4;
+    padding-left: 25px;
+    border-bottom: 1px solid #EEEEEE;
+    height: 30px;
+}
+
+ul.select li:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+ul.select li:last-child {
+    border-bottom: none;
+}
+
+ul.select li span {
+    margin-right: 1px;
+}
+
+/*_____________________________TEXTAREA______________________*/
+
+textarea {
+    width: 400px;
+    padding: 10px;
+    margin: 2px 0;
+    font: 12px/1.3 $fontMain;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border: 1px solid #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+textarea:hover {
+    border: 1px solid #989898;
+}
+
+/*_____________________________INPUT______________________*/
+
+input.text-input {
+    display: block;
+    height: 30px;
+    margin: 5px 0;
+    padding: 0 10px;
+    font: 14px/1 $fontMain;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border: 1px solid #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input.text-input:hover {
+    border: 1px solid #989898;
+}
+
+/*_____________________________GALLERY______________________*/
+
+div.gallery {
+    margin: 10px 0;
+    border: 1px solid #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: #F8F8F8;
+}
+
+div.gallery img {
+    vertical-align: middle;
+    margin: 10px;
+    width: 70px;
+    border: 2px solid #ffffff;
+    outline: 1px solid #333333;
+}
+
+div.gallery img:hover {
+    cursor: pointer;
+}
+
+/*_____________________________CANVAS______________________*/
+
+canvas {
+    border: 1px solid #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+
+

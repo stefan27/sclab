@@ -1,0 +1,60 @@
+<div ng-controller="Lab2cCluster" ng-init="initializeController()">
+
+
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Variable</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Mean</td>
+            <td>{{mean}}</td>
+        </tr>
+        <tr>
+            <td>Dispersion shifted</td>
+            <td>{{shiftDis}}</td>
+        </tr>
+        <tr>
+            <td>Dispersion unshifted</td>
+            <td>{{unShiftDis}}</td>
+        </tr>
+        <tr>
+            <td>Standard deviation</td>
+            <td>{{deviation}}</td>
+        </tr>
+        <tr>
+            <td>Skewness</td>
+            <td>{{koefAsym}}</td>
+        </tr>
+        <tr>
+            <td>Kurtosis</td>
+            <td>{{koefExscess}}</td>
+        </tr>
+        <tr>
+            <td>Confidence interval</td>
+            <td>{{confidInterval[0]}}, {{confidInterval[1]}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+
+    <h3 class="content-h3">Choose chart</h3>
+
+    <ul class="select">
+        <li ng-repeat="chart in charts" ng-click="selectChart(chart.n)">
+            <span class="octicon octicon-doc octicon-file-text"></span>
+            {{chart.title}}</li>
+    </ul>
+
+
+    <!--____________________________GRAPH_______________________________-->
+
+    <canvas chart2klaster a="a" f="f" slots="slots" number-chart="numberChart" open="open()"></canvas>
+
+</div>

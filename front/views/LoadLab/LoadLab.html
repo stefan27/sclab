@@ -1,0 +1,39 @@
+<div ng-controller="LoadLabController" ng-init="initializeController()">
+
+    <h1 class="lab-h1">
+        {{query.item}} <span class="octicon octicon-chevron-right"></span> {{query.lab}}
+
+        <ul>
+            <li ng-click="selectTask()"><span class="octicon octicon-question"></span></li>
+            <li ng-click="selectContent()"><span class="octicon octicon-code"></span></li>
+        </ul>
+
+    </h1>
+
+    <ul class="content-info">
+        <li>
+            <span class="octicon octicon-eye"></span> {{lab.dateCreate | date: "yyyy-MM-dd"}}
+        </li>
+        <li>
+            <span class="octicon octicon-diff-added"></span> {{lab.dateBegin | date: "yyyy-MM-dd"}}
+        </li>
+        <li>
+            <span class="octicon octicon-diff-removed"></span> {{lab.dateEnd | date: "yyyy-MM-dd"}}
+        </li>
+    </ul>
+
+    <div ng-switch on="selection">
+
+        <div ng-switch-when="task">
+            <div ng-include="urlTask"></div>
+        </div>
+
+        <div ng-switch-when="content">
+            <div ng-include="urlHtml"></div>
+        </div>
+
+        <div ng-switch-default></div>
+
+    </div>
+
+</div>

@@ -1,0 +1,64 @@
+<div ng-controller="Lab3cCluster" ng-init="initializeController()">
+
+    <table>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Detail 1</th>
+            <th>Detail 2</th>
+            <th>Detail 3</th>
+            <th>Detail 4</th>
+            <th>Detail 5</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr ng-repeat="i in [0,1,2]">
+            <th>Material {{i+1}}</th>
+            <td ng-repeat="j in data[i]">{{j}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Sum Squares</th>
+            <th>Degrees of freedom </th>
+            <th>Dispersions</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <th>General</th>
+            <td>{{generalSumSquaredDeviations | number: prec}}</td>
+            <td>{{m*n-1}}</td>
+            <td>{{generalDispersion | number: prec }}</td>
+        </tr>
+
+        <tr>
+            <th>Factor A</th>
+            <td>{{sumSquaredDeviations | number: prec}}</td>
+            <td>{{m-1}}</td>
+            <td>{{factorDispersion | number: prec}}</td>
+        </tr>
+
+        <tr>
+            <th>Residue</th>
+            <td>{{residue | number: prec}}</td>
+            <td>{{m*(n-1)}}</td>
+            <td>{{dispersion | number: prec}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <p class="p-main">{{answer}}</p>
+
+
+</div>

@@ -1,0 +1,34 @@
+/*_____________________________CONTENT______________________*/
+/* line 4, ../scss/data.scss */
+.div-data {
+  width: 200px;
+  margin: 30px 0; }
+
+/* line 9, ../scss/data.scss */
+.div-data h2 {
+  width: 150px;
+  margin: 0 0 13px 0;
+  font: bold 24px/1 Roboto-Condensed, sans-serif; }
+
+/* line 15, ../scss/data.scss */
+.div-data h2:hover {
+  cursor: pointer;
+  color: #4183C4; }
+
+/* line 20, ../scss/data.scss */
+.div-data ul {
+  display: none; }
+
+/* line 24, ../scss/data.scss */
+.div-data ul li {
+  margin: 0 0 5px 30px;
+  font: 20px/1 sans-serif; }
+
+/* line 29, ../scss/data.scss */
+.div-data ul li span {
+  position: relative;
+  bottom: 2px; }
+
+/* line 34, ../scss/data.scss */
+.div-data ul li a:hover {
+  color: #4183C4; }

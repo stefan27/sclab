@@ -1,0 +1,39 @@
+<div ng-controller="Lab1cNumeric" ng-init="initializeController()">
+
+    <!--____________________________GRAPH_______________________________-->
+    <table>
+        <thead>
+        <tr>
+            <th>Method</th>
+            <th>Results</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Gauss</td>
+            <td>{{gauss}}</td>
+        </tr>
+        <tr>
+            <td>Simpson</td>
+            <td>{{simpson}}</td>
+        </tr>
+        <tr>
+            <td>Rect</td>
+            <td>{{rect.l}}, {{rect.m}}, {{rect.r}}</td>
+        </tr>
+        <tr>
+            <td>Trapez</td>
+            <td>{{trapez}}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="inputs-container">
+        <input type="text" class="text-input" ng-model="a" />
+        <input type="text" class="text-input" ng-model="b" />
+    </div>
+
+    <canvas chart1numeric a="a" b="b"></canvas>
+
+
+</div>

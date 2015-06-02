@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <title></title>
+
+</head>
+<body>
+<header onclick="changePage()">
+    <h1 id="title">Lab2</h1>
+</header>
+
+<div class="content" id="content1">
+
+    <h2>Начало установки</h2>
+
+    <p>
+        После запуска загрузочного устройства вы должны
+        дождатся загрузку установщика Ubuntu.
+    </p>
+
+</div>
+
+<div class="content" id="content2">
+    <h2>Parted Magic OS</h2>
+
+
+
+</div>
+
+
+<script>
+    var is = true;
+    var title = document.getElementById("title");
+    var content1 = document.getElementById("content1");
+    var content2 = document.getElementById("content2");
+
+    content2.style.display = 'none';
+
+    function changePage() {
+
+        if (is) {
+            is = false;
+            title.innerHTML = "Linux Distributions";
+            content1.style.display = 'none';
+            content2.style.display = 'block';
+        }
+        else {
+            is = true;
+            title.innerHTML = "Installing Ubuntu 15.04";
+            content1.style.display = 'block';
+            content2.style.display = 'none';
+        }
+    }
+
+</script>
+
+</body>
+</html>
