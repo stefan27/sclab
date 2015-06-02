@@ -27,11 +27,11 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                 var mid = [];
                 var sum = 0;
 
-                for (var j in $scope.data[0]) {
-                    for (var i in $scope.data) {
+                for (var i in $scope.data) {
+                    for (var j in $scope.data[0]) {
                         sum += $scope.data[i][j];
                     }
-                    mid.push(sum / 3);
+                    mid.push(sum / 5);
                     sum = 0;
                 }
 
@@ -42,7 +42,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                     generalMid += mid[i];
                 }
 
-                generalMid /= 5;
+                generalMid /= 3;
 
                 // Вычисляю суммы квадратов отклонений выборочных средних от общего среднего
                 var sum1 = 0;
@@ -51,7 +51,9 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                     sum1 += Math.pow(mid[i], 2);
                 }
 
-                $scope.sumSquaredDeviations = ($scope.m * sum1) - ($scope.n * $scope.m * Math.pow(generalMid, 2));
+                $scope.sumSquaredDeviations = ($scope.n * sum1) - ($scope.n * $scope.m * Math.pow(generalMid, 2));
+
+                //межгруповая дисп делится на внутр групп и сравн со знач из табл Фишера
 
                 // Вычисляю общую сумму отклонений наблюдаемого значения х от общего среднего
                 var sum2 = 0;
@@ -80,7 +82,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                 if (ans < 19.41) {
                     $scope.answer = ans + " < 19.41. Таким образом гипотеза о не влиянии факторов верна.";
                 }
-                else {
+                else if(ans >= 19.41) {
                     $scope.answer = ans + " >= 19.41. Таким образом гипотеза о не влиянии факторов не верна.";
                 }
             }

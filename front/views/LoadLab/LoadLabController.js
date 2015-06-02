@@ -25,7 +25,7 @@ define(['app-conf', 'dataService',
             }
 
             $scope.labItems = ['task', 'content'];
-            $scope.selection = $scope.labItems[0];
+            $scope.selection = $scope.labItems[1];
 
             $scope.initializeController = function () {
 

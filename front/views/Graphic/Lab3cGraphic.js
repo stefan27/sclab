@@ -7,6 +7,8 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
             $scope.img = {};
 
+            $scope.imgData = {};
+
             $scope.initializeController = function () {
                 graphicService.graphicLab3({}, $scope.graphicLab3Completed, $scope.graphicLab3Error);
             }
@@ -34,25 +36,80 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
                 element.bind('click', function () {
                     scope.$apply(function () {
-                        scope.img.obj = element[0];
+                        scope.img.img = element[0];
                     })
                 })
             }
-
         }
     });
 
-    app.register.directive('lab3', function ($timeout) {
+
+    app.register.directive('pic', function ($timeout) {
         return {
             scope: {
-                img: '='
+                img: '=',
+                imgData: '='
             },
             restrict: 'A',
 
             link: function (scope, element, attr) {
 
-                element[0].width = 758;
-                element[0].height = 500;
+                element[0].width = 300;
+                element[0].height = 400;
+
+                var w = element[0].width;
+                var h = element[0].height;
+                var ctx = element[0].getContext("2d");
+
+
+                //__________________________DRAW______________________________
+
+                function draw() {
+
+                    ctx.clearRect(0, 0, w, h);
+
+                    //__________________________IMAGE______________________________
+
+                    if (scope.img && scope.img.img) {
+                        //scope.img.obj.width = 200;
+                        ctx.drawImage(scope.img.img, 0, 0);
+                        //scope.img = undefined;
+                        scope.imgData.data = ctx.getImageData(0,0,300,400);
+                    }
+
+                }
+
+                scope.$watch('img.img', function () {
+                    $timeout(function () {
+                        draw();
+                    });
+                });
+
+                scope.$watch('imgData.data', function () {
+                    $timeout(function () {
+                        //alert('ris');
+                        draw();
+                    });
+                });
+
+                draw();
+
+            }
+        }
+    }); //end Directive
+
+    app.register.directive('slider', function ($timeout) {
+        return {
+            scope: {
+                img: '=',
+                imgData: '='
+            },
+            restrict: 'A',
+
+            link: function (scope, element, attr) {
+
+                element[0].width = 450;
+                element[0].height = 400;
 
                 var w = element[0].width;
                 var h = element[0].height;
@@ -77,20 +134,21 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
                     //__________________________IMAGE______________________________
 
-                    if (scope.img && scope.img.obj && scope.img.obj != undefined) {
-                        scope.img.obj.width = 200;
-                        ctx.drawImage(scope.img.obj, 0, 0);
+                    //if (scope.img && scope.img.obj && scope.img.obj != undefined) {
 
-                        //var Y = 0;
-                        //var data = 0;
+                    if(scope.imgData.data && scope.img) {
 
-                        //for (var i = 0; i < data.data.length; i += 4) {
-                        //    Y = 0.222 * data.data[i] + 0.707 * data.data[i + 1] +
-                        //        0.071 * data.data[i + 2];
-                        //    data.data[i] = Y;
-                        //    data.data[i + 1] = Y;
-                        //    data.data[i + 2] = Y;
-                        //}
+                        //alert('sli');
+
+                        var Y = 0;
+
+                        for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+                            Y = 0.222 * scope.imgData.data.data[i] + 0.707 * scope.imgData.data.data[i + 1] +
+                                0.071 * scope.imgData.data.data[i + 2];
+                            scope.imgData.data.data[i] = Y;
+                            scope.imgData.data.data[i + 1] = Y;
+                            scope.imgData.data.data[i + 2] = Y;
+                        }
 
                         //ctx.putImageData(data, lena.offsetWidth + 10, 0);
                         //lena.style.display = 'none';
@@ -129,7 +187,13 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                     }
                 }
 
-                scope.$watch('img.obj', function () {
+                scope.$watch('img.img', function () {
+                    $timeout(function () {
+                        draw();
+                    });
+                });
+
+                scope.$watch('imgData.data', function () {
                     $timeout(function () {
                         draw();
                     });

@@ -24,12 +24,14 @@
 
     <div ng-switch on="selection">
 
-        <div ng-switch-when="task">
-            <div ng-include="urlTask"></div>
-        </div>
 
         <div ng-switch-when="content">
             <div ng-include="urlHtml"></div>
+        </div>
+
+
+        <div ng-switch-when="task">
+            <div ng-include="urlTask"></div>
         </div>
 
         <div ng-switch-default></div>
