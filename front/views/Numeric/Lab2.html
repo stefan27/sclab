@@ -1,0 +1,68 @@
+<div ng-controller="Lab2cNumeric" ng-init="initializeController()">
+
+
+
+    <h3 class="content-h3">Runge-Kutta method with automatic step selection.</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>n</th>
+            <th>X<sub>n</sub></th>
+            <th>Y<sub>n</sub></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="i in adept.x">
+            <td>{{$index}}</td>
+            <td>{{adept.x[$index] | number: prec}}</td>
+            <td>{{adept.y[$index] | number: prec}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <h3 class="content-h3">Runge-Kutta method with constant integration step.</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>n</th>
+            <th>X<sub>n</sub></th>
+            <th>Y<sub>n</sub></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="i in rc.x">
+            <td>{{$index}}</td>
+            <td>{{rc.x[$index] | number: prec}}</td>
+            <td>{{rc.y[$index] | number: prec}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <h3 class="content-h3">Method Adams 4th order accuracy.</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>n</th>
+            <th>X<sub>n</sub></th>
+            <th>Y<sub>n</sub></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="i in adams.x">
+            <td>{{$index}}</td>
+            <td>{{adams.x[$index] | number: prec}}</td>
+            <td>{{adams.y[$index] | number: prec}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <canvas chart2numeric a='a' b='b' adept="adept" rc="rc" adams="adams"></canvas>
+
+
+</div>

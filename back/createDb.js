@@ -57,22 +57,6 @@ function requireModels(cb) {
 
     log.info('mongoose: require Models');
 }
-/*
-var items = [{
-    name: 'Teorver'
-}, {
-    name: 'Numeric'
-}, {
-    name: 'Database'
-}, {
-    name: 'Graphic'
-}, {
-    name: 'Web'
-}, {
-    name: 'Cluster'
-}
-];*/
-
 
 function createModels1(cb) {
 
@@ -114,12 +98,10 @@ function createModels1(cb) {
             topic: 'Непараметричиские критерии'
         }, {
             nameItem: 'Numeric',
-            name: 'Lab1',
-            topic: 'Методи розв’язування нелінійних рівнянь'
+            name: 'Lab1'
         }, {
             nameItem: 'Numeric',
-            name: 'Lab2',
-            topic: 'Методи розв’язання систем лінійних алгебраїчних рівнянь'
+            name: 'Lab2'
         }, {
             nameItem: 'Numeric',
             name: 'Lab3',

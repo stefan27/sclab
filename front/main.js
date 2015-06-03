@@ -33,7 +33,9 @@ require.config({
         'Lab3cCluster': 'views/Cluster/Lab3cCluster',
         'Lab2cGraphic': 'views/Graphic/Lab2cGraphic',
         'Lab3cGraphic': 'views/Graphic/Lab3cGraphic',
-        'Lab1cNumeric': 'views/Numeric/Lab1cNumeric'
+        'Lab1cNumeric': 'views/Numeric/Lab1cNumeric',
+        'Lab2cNumeric': 'views/Numeric/Lab2cNumeric'
+
 
 
 
