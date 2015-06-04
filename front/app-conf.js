@@ -13,9 +13,17 @@ define(['angularAMD', 'jquery', 'angular-route'], function (angularAMD) {
         $routeProvider
             .when("/", angularAMD.route({
                 templateUrl: function (rp) {
+                    return 'views/Data/Data.html';
+                },
+                controllerUrl: "views/Data/DataController"
+            }));
+
+        $routeProvider
+            .when("/Main/Main", angularAMD.route({
+                templateUrl: function (rp) {
                     return 'views/Main/Main.html';
                 },
-                controllerUrl: "views/Main/MainController"
+                controllerUrl: "views/Main/mainController"
             }));
 
         $routeProvider

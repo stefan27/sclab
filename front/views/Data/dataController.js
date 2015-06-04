@@ -57,4 +57,12 @@ define(['app-conf', 'dataService'], function (app) {
         }
     });
 
+    app.register.filter('pInt', function () {
+        return function (value) {
+            if (!value) return '';
+
+            return 'Лаб ' + value.charAt(3);
+        };
+    });
+
 });

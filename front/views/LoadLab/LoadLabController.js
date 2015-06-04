@@ -26,7 +26,7 @@ define(['app-conf', 'dataService',
             }
 
             $scope.labItems = ['task', 'content'];
-            $scope.selection = $scope.labItems[1];
+            $scope.selection = $scope.labItems[0];
 
             $scope.initializeController = function () {
 
@@ -41,6 +41,7 @@ define(['app-conf', 'dataService',
 
             $scope.loadlabCompleted = function (res, status) {
                 $scope.lab = JSON.parse(res.resLab);
+                $scope.fullNameItem = JSON.parse(res.resItem).fullName;
             }
 
             $scope.loadlabError = function (res, status) {
@@ -50,34 +51,13 @@ define(['app-conf', 'dataService',
 
     ]); //end Controller
 
-    //app.register.directive('contentLab', function ($http, $templateCache) {
-    //
-    //    return {
-    //
-    //        compile: function (tElement, tAttrs) {
-    //            $http.get('1.html', {cache: $templateCache}).success(function (html) {
-    //                tElement.html(html);
-    //            });
-    //        },
-    //
-    //        scope: {
-    //            url: '='
-    //        },
-    //
-    //        restrict: 'AE',
-    //
-    //        link: function (scope, element, attr) {
-    //
-    //            //alert(scope.url.url);
-    //
-    //            //console.log(arguments);
-    //            //alert(Object.keys(scope));
-    //
-    //        }
-    //
-    //
-    //    }
-    //});
+    app.register.filter('pInt', function () {
+        return function (value) {
+            if (!value) return '';
+
+            return 'Лаб ' + value.charAt(3);
+        };
+    });
 
 
 });

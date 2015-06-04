@@ -1,20 +1,20 @@
 <div ng-controller="DataController" ng-init="initializeController()">
 
 
-    <h1 class="content-h1">Data</h1>
+    <h1 class="content-h1">Список предметов и лабораторных работ</h1>
 
     <div triangle class="div-data" ng-repeat="item in data | orderBy: 'name'">
 
         <h2>
             <span class="octicon octicon-data octicon-chevron-right"></span>
-            {{item.name}}
+            {{item.fullName}}
         </h2>
 
         <ul class="ul-data">
             <li ng-repeat="lab in item.labs | orderBy: 'name'">
                 <a href="#/{{item.name}}/{{lab.name}}">
                     <span class="octicon octicon-lab octicon-file-text"></span>
-                    {{lab.name}}
+                    {{lab.name | pInt}}
                 </a>
             </li>
         </ul>

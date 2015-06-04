@@ -18,6 +18,10 @@ var FullLab = new Schema({
         type: String,
         required: true
     },
+    fullName: {
+        type: String,
+        required: true
+    },
     topic: {
         type: String
     },

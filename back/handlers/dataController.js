@@ -13,9 +13,11 @@ exports.loadlab = function (req, res) {
 
             res.send({
                 status: 'OK',
-                resLab: JSON.stringify(resLab),
+                resLab: JSON.stringify(resLab.l),
+                resItem: JSON.stringify(resLab.i),
                 ReturnMessage: 'Lab was found'
             });
+
         },
         function (err) {
             if (err.name === 'noItem404') {

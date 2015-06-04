@@ -60,3 +60,7 @@
 /* line 67, ../scss/octicon.scss */
 .octicon-question:before {
   content: '\f02c'; }
+
+/* line 71, ../scss/octicon.scss */
+.octicon-arrow-small-right:before {
+  content: '\f071'; }

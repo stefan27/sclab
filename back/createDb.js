@@ -20,10 +20,7 @@ async.series([
     dropDb,
     requireModels,
     createModels1,
-    createModels2,
-    //createModels3,
-    //createModels4,
-    //work1
+    createModels2
 
 ], function (err, res) {
     if (!module.parent) {
@@ -60,85 +57,68 @@ function requireModels(cb) {
 
 function createModels1(cb) {
 
-    var items = [{
-        name: 'Teorver'
-    }, {
-        name: 'Numeric'
-    }, {
-        name: 'Database'
-    }, {
-        name: 'Graphic'
-    }, {
-        name: 'Web'
-    }, {
-        name: 'Cluster'
-    }
+    var items = [
+        {
+            name: 'Numeric',
+            fullName: 'Численные методы'
+        }, {
+            name: 'Database',
+            fullName: 'Базы данных'
+        }, {
+            name: 'Graphic',
+            fullName: 'Обработка изображений'
+        }, {
+            name: 'Web',
+            fullName: 'Unix-подобные ОС'
+        }, {
+            name: 'Cluster',
+            fullName: 'Кластерный анализ'
+        }
     ];
 
     var fullLabs = [
         {
-            nameItem: 'Teorver',
+            nameItem: 'Numeric',
             name: 'Lab1',
-            topic: 'Оценивание параметров распределений'
+            fullName: 'Лаб1'
         }, {
-            nameItem: 'Teorver',
+            nameItem: 'Numeric',
             name: 'Lab2',
-            topic: 'Методы построения оценок'
-        }, {
-            nameItem: 'Teorver',
-            name: 'Lab3',
-            topic: 'Проверка гипотез о параметрах нормального распределения'
-        }, {
-            nameItem: 'Teorver',
-            name: 'Lab4',
-            topic: 'Критерий хи-квадрат'
-        }, {
-            nameItem: 'Teorver',
-            name: 'Lab5',
-            topic: 'Непараметричиские критерии'
-        }, {
-            nameItem: 'Numeric',
-            name: 'Lab1'
-        }, {
-            nameItem: 'Numeric',
-            name: 'Lab2'
+            fullName: 'Лаб2'
         }, {
             nameItem: 'Numeric',
             name: 'Lab3',
-            topic: 'Методи наближення функцій'
+            fullName: 'Лаб3'
         }, {
             nameItem: 'Numeric',
             name: 'Lab4',
-            topic: 'Численные методы одномерной оптимизации'
-        }, {
-            nameItem: 'Graphic',
-            name: 'Lab1',
-            topic: 'Знакомство с растровыми графическими форматами'
+            fullName: 'Лаб4'
         }, {
             nameItem: 'Graphic',
             name: 'Lab2',
+            fullName: 'Лаб2',
             topic: 'Сжатие изображений',
             task: 'https://vk.com/club42643648?w=wall-42643648_5986%2Fall'
         }, {
             nameItem: 'Graphic',
             name: 'Lab3',
+            fullName: 'Лаб3',
             topic: 'По элементная(по пиксельная) обработка изображения',
             task: 'http://vk.com/club42643648?w=wall-42643648_6023%2Fall'
         }, {
             nameItem: 'Graphic',
             name: 'Lab4',
+            fullName: 'Лаб4',
             task: 'http://vk.com/club42643648?w=wall-42643648_6028%2Fall'
         }, {
             nameItem: 'Cluster',
-            name: 'Lab1',
-            link: '#/Cluster/Lab1'
-        }, {
-            nameItem: 'Cluster',
             name: 'Lab2',
+            fullName: 'Лаб2',
             link: '#/Cluster/Lab2'
         }, {
             nameItem: 'Cluster',
             name: 'Lab3',
+            fullName: 'Лаб3',
             link: '#/Cluster/Lab3'
         }
     ];
@@ -201,8 +181,6 @@ function createModels1(cb) {
 function createModels2(cb) {
 
     var items = [{
-        name: 'Teorver'
-    }, {
         name: 'Numeric'
     }, {
         name: 'Graphic'

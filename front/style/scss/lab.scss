@@ -3,45 +3,49 @@ $fontHeader: /*Roboto-Condensed, *//*Helvetica,*/ sans-serif;
 $fontNav: /*Helvetica, */sans-serif;
 $colorLine: #cbcbcb;
 $colorLineActive: #4183C4;
-//$colorTextHide: #777777;
+$colorTextHide: #777777;
 $colorOcticonHide: #999999;
 $colorOcticon: #333333;
-//$colorText: #333333;
+$colorText: #333333;
+
+$fontThemP: sans-serif;
 
 
 /*_______________________TEXT______________________*/
 
 h1.lab-h1 {
     margin-bottom: 10px;
-    font: 20px/3 $fontHeader;
+    font: 20px/2.5 $fontHeader;
     border-bottom: 1px solid $colorLine;
 }
 
-h1.lab-h1 > span {
-    font-size: 20px;
-}
-
-
 h1.lab-h1 ul {
     float: right;
+    position: relative; //deleted
+    top: 4px; //deleted
+
 }
 
 h1.lab-h1 ul li {
+    font: 18px/2.5 sans-serif;
     float: left;
     margin: 0 10px;
     padding: 0 10px;
+    color: $colorTextHide;
 }
 
 h1.lab-h1 ul li:hover {
+    color: $colorText;
     border-bottom: 2px solid $colorLineActive;
     cursor: pointer;
 }
 
 h1.lab-h1 ul li span {
     position: relative;
-    bottom: 5px;
+    bottom: 2px;
     color: $colorOcticonHide;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 1;
 }
 
 h1.lab-h1 ul li:hover span {
@@ -53,6 +57,48 @@ h1.lab-h1 ul li:hover span {
 }
 
 
+/*_______________________TASK______________________*/
+
+h3.task-h3 {
+    clear: both;
+    float: left;
+    font: 20px/1 $fontHeader;
+    margin: 20px 0 8px 0;
+}
+
+p.them-p {
+    float: left;
+    margin: 18px 0 0 18px;
+    font: 17px/1.4 $fontThemP;
+    border-bottom: 1px dashed #333333;
+}
+
+
+p.task-p {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    font: 15px/1.4 $fontThemP;
+}
+
+ul.ul-task {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 5px 0;
+    font: 15px/1.4 $fontThemP;
+}
+
+ul.ul-task li {
+    margin: 5px 0 5px 30px;
+}
+
+ul.ul-task li span{
+    font-size: 32px;
+    position: relative;
+    bottom: 1px;
+    right: 5px;
+}
 
 
 

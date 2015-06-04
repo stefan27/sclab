@@ -6,9 +6,9 @@
 
 /* line 9, ../scss/data.scss */
 .div-data h2 {
-  width: 150px;
+  width: 500px;
   margin: 0 0 13px 0;
-  font: bold 24px/1 Roboto-Condensed, sans-serif; }
+  font: bold 20px/1 sans-serif; }
 
 /* line 15, ../scss/data.scss */
 .div-data h2:hover {

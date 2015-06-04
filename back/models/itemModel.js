@@ -10,6 +10,10 @@ var Item = new Schema({
         type: String,
         required: true
     },
+    fullName: {
+        type: String,
+        required: true
+    },
     labs: ['Lab']
 });
 
@@ -25,10 +29,7 @@ exports.loadlab = function (req, res) {
     var deferred = q.defer();
 
     models.Item
-        .find({
-            name: req.query.item,
-            'labs.name': req.query.lab
-        })
+        .find()
         .exec(function (err, resItem) {
             if (!resItem) {
                 var err404 = new Error();
@@ -36,11 +37,18 @@ exports.loadlab = function (req, res) {
                 deferred.reject(err404);
             } else if (!err) {
 
+
                 var labId = 0;
 
-                for (var i in resItem[0].labs) {
-                    if (resItem[0].labs[i].name == req.query.lab) {
-                        labId = resItem[0].labs[i].labId;
+                for (var i = 0; i < resItem.length; i++) {
+                    if (resItem[i].name == req.query.item) {
+                        for (var j = 0; j < resItem[i].labs.length; j++) {
+                            if (resItem[i].labs[j].name == req.query.lab) {
+                                labId = resItem[i].labs[j].labId;
+                            }
+                        }
+                        resItem = resItem[i];
+                        break;
                     }
                 }
 
@@ -49,12 +57,12 @@ exports.loadlab = function (req, res) {
                         _id: labId
                     })
                     .exec(function (err, resLab) {
-                        if (!resItem) {
+                        if (!resLab) {
                             var err404 = new Error();
                             err404.name = "noLab404";
                             deferred.reject(err404);
                         } else if (!err) {
-                            deferred.resolve(resLab[0]);
+                            deferred.resolve({ l:resLab[0], i: resItem});
                         } else {
                             var err500 = new Error();
                             err500.name = "noLab500";

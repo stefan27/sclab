@@ -6,7 +6,7 @@
 @import "lab";
 
 $fontMain: Helvetica, sans-serif;
-$fontHeader: Roboto-Condensed, sans-serif, Helvetica;
+$fontHeader:  sans-serif, Helvetica;
 $fontRoboto: Roboto-Condensed, Helvetica, sans-serif;
 $fontP: sans-serif, Helvetica;
 
@@ -166,7 +166,7 @@ h3.content-h3 {
 
 ul.content-info {
     margin: 0 0 20px 0;
-    font: 13px/1 $fontMain;
+    font: 12px/1 $fontMain;
 }
 
 ul.content-info li {
