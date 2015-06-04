@@ -6,7 +6,10 @@ define(['app-conf', 'dataService',
     'Lab2cGraphic',
     'Lab3cGraphic',
     'Lab1cNumeric',
-    'Lab2cNumeric'
+    'Lab2cNumeric',
+    'Lab3cSysanaliz',
+    'Lab4cSysanaliz'
+
 ], function (app) {
 
     app.register.controller('LoadLabController', ['$scope', '$rootScope', '$location', '$routeParams', 'dataService',

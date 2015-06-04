@@ -73,6 +73,9 @@ function createModels1(cb) {
         }, {
             name: 'Cluster',
             fullName: 'Кластерный анализ'
+        }, {
+            name: 'Sysanaliz',
+            fullName: 'Системный анализ'
         }
     ];
 
@@ -120,6 +123,16 @@ function createModels1(cb) {
             name: 'Lab3',
             fullName: 'Лаб3',
             link: '#/Cluster/Lab3'
+        }, {
+            nameItem: 'Sysanaliz',
+            name: 'Lab3',
+            fullName: 'Лаб3',
+            link: '#/Sysanaliz/Lab3'
+        }, {
+            nameItem: 'Sysanaliz',
+            name: 'Lab4',
+            fullName: 'Лаб4',
+            link: '#/Sysanaliz/Lab4'
         }
     ];
 
@@ -186,6 +199,8 @@ function createModels2(cb) {
         name: 'Graphic'
     }, {
         name: 'Cluster'
+    }, {
+        name: 'Sysanaliz'
     }];
 
     async.each(items, function (item, cb) {

@@ -34,7 +34,9 @@ require.config({
         'Lab2cGraphic': 'views/Graphic/Lab2cGraphic',
         'Lab3cGraphic': 'views/Graphic/Lab3cGraphic',
         'Lab1cNumeric': 'views/Numeric/Lab1cNumeric',
-        'Lab2cNumeric': 'views/Numeric/Lab2cNumeric'
+        'Lab2cNumeric': 'views/Numeric/Lab2cNumeric',
+        'Lab3cSysanaliz': 'views/Sysanaliz/Lab3cSysanaliz',
+        'Lab4cSysanaliz': 'views/Sysanaliz/Lab4cSysanaliz'
 
 
 

@@ -63,7 +63,7 @@ h3.task-h3 {
     clear: both;
     float: left;
     font: 20px/1 $fontHeader;
-    margin: 20px 0 8px 0;
+    margin: 20px 0 15px 0;
 }
 
 p.them-p {
@@ -100,8 +100,18 @@ ul.ul-task li span{
     right: 5px;
 }
 
+pre {
+    margin: 0 0 0 20px;
+    padding: 0;
+    clear: both;
+    position: relative;
+    right: 80px;
+}
 
-
+xmp {
+    margin: 0;
+    padding: 0;
+}
 
 
 

@@ -1,0 +1,14 @@
+<div ng-controller="Lab4cSysanaliz" ng-init="initializeController()">
+
+
+    <h3 class="content-h3">Введите количество контроллеров:</h3>
+
+    <input class="text-input" type="text" ng-change="set()" ng-model="inputValue" />
+
+    <p class="main-p">Вероятность обслуживания: {{pObs}}</p>
+    <p class="main-p">Вероятность быть непроверенной: {{pOtk}}</p>
+    <p class="main-p">Загруженность контроллеров: {{pK}}</p>
+
+    <h3 class="content-h3" ng-show="inputValue >= 5">Ответ {{inputValue}} контроллеров.</h3>
+
+</div>

@@ -1,0 +1,35 @@
+<div>
+    <h3 class="task-h3">Тема:</h3>
+    <p class="them-p">
+        Работа в GPSS.
+    </p>
+    <h3 class="task-h3">Задание:</h3>
+    <p class="task-p">
+        Переписать лабораторную работу №2 на язык JavaScript:
+    </p>
+
+    <pre>
+        <xmp>
+            INITIAL 	X$Facval,100
+            GENERATE	1
+            SAVEVALUE	Answer,(Factorial(X$Facval))
+            TERMINATE	1
+
+
+            PROCEDURE Factorial(Arg1) BEGIN
+            TEMPORARY Result;
+
+            Result=1;
+
+            WHILE(Arg1>1) DO BEGIN
+            Result=Result#Arg1;
+            Arg1=(Arg1-1);
+            END;
+
+            RETURN Result;
+
+            END;
+        </xmp>
+    </pre>
+
+</div>

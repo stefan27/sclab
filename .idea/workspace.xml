@@ -2,37 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e264ea39-927f-4346-a319-bbc596bee5c9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\clasterLab3Report_10-5-15.docx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\16_1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\16_2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\16_3.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\16_4.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\lab2.rar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\lab3.rar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\lab4.rar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\aDump\unix\labs.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\views\Graphic\Lab3Task.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Data/Data.html" afterPath="$PROJECT_DIR$/front/views/Data/Data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2Task.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2Task.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/app-conf.js" afterPath="$PROJECT_DIR$/front/app-conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/createDb.js" afterPath="$PROJECT_DIR$/back/createDb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/data.css" afterPath="$PROJECT_DIR$/front/style/css/data.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/data.scss" afterPath="$PROJECT_DIR$/front/style/scss/data.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/handlers/dataController.js" afterPath="$PROJECT_DIR$/back/handlers/dataController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Data/dataController.js" afterPath="$PROJECT_DIR$/front/views/Data/dataController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/models/fullLabModel.js" afterPath="$PROJECT_DIR$/back/models/fullLabModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/index.html" afterPath="$PROJECT_DIR$/front/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/models/itemModel.js" afterPath="$PROJECT_DIR$/back/models/itemModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/lab.css" afterPath="$PROJECT_DIR$/front/style/css/lab.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/lab.scss" afterPath="$PROJECT_DIR$/front/style/scss/lab.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/main.css" afterPath="$PROJECT_DIR$/front/style/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/main.js" afterPath="$PROJECT_DIR$/front/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/main.scss" afterPath="$PROJECT_DIR$/front/style/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/octicon.css" afterPath="$PROJECT_DIR$/front/style/css/octicon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/octicon.scss" afterPath="$PROJECT_DIR$/front/style/scss/octicon.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme" afterPath="$PROJECT_DIR$/readme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/reset.css" afterPath="$PROJECT_DIR$/front/style/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/reset.scss" afterPath="$PROJECT_DIR$/front/style/scss/reset.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sclab.iws" />
@@ -54,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadLabController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
+      <file leaf-file-name="readme" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -67,38 +50,28 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.576923">
-              <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+            <state vertical-scroll-proportion="-20.923077">
+              <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadLab.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
+      <file leaf-file-name="lab.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state vertical-scroll-proportion="-11.269231">
+              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lab3Task.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3Task.html">
+      <file leaf-file-name="Lab4cSysanaliz.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05635359">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/views/Data/dataController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.14607948">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -142,10 +115,8 @@
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
         <option value="$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js" />
-        <option value="$PROJECT_DIR$/front/main.js" />
         <option value="$PROJECT_DIR$/front/views/Numeric/Lab2.html" />
         <option value="$PROJECT_DIR$/front/views/Numeric/Lab2cNumeric.js" />
-        <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/front/services/dataServices.js" />
         <option value="$PROJECT_DIR$/front/style/scss/data.scss" />
         <option value="$PROJECT_DIR$/front/app-conf.js" />
@@ -153,16 +124,25 @@
         <option value="$PROJECT_DIR$/back/handlers/dataController.js" />
         <option value="$PROJECT_DIR$/back/models/itemModel.js" />
         <option value="$PROJECT_DIR$/back/models/fullLabModel.js" />
-        <option value="$PROJECT_DIR$/back/createDb.js" />
         <option value="$PROJECT_DIR$/front/views/Data/Data.html" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab2Task.html" />
         <option value="$PROJECT_DIR$/front/style/scss/octicon.scss" />
-        <option value="$PROJECT_DIR$/front/style/scss/lab.scss" />
         <option value="$PROJECT_DIR$/front/views/Data/dataController.js" />
-        <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
         <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" />
-        <option value="$PROJECT_DIR$/front/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab3Task.html" />
+        <option value="$PROJECT_DIR$/front/style/scss/reset.scss" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3Task.html" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3.html" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3cSysanaliz.js" />
+        <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
+        <option value="$PROJECT_DIR$/front/main.js" />
+        <option value="$PROJECT_DIR$/back/createDb.js" />
+        <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4Task.html" />
+        <option value="$PROJECT_DIR$/front/style/scss/main.scss" />
+        <option value="$PROJECT_DIR$/front/style/scss/lab.scss" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4.html" />
+        <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js" />
       </list>
     </option>
   </component>
@@ -201,8 +181,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,26 +232,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoadLab" />
+              <option name="myItemId" value="Sysanaliz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,10 +254,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -307,55 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
+              <option name="myItemId" value="back" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,11 +284,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefan\noder\sclab\front\views\Sysanaliz" />
+      <recent name="C:\Users\Stefan\noder\sclab\front\views\" />
       <recent name="C:\Users\Stefan\noder\sclab\front\views\Graphic" />
       <recent name="C:\Users\Stefan\noder\sclab\front\views\Numeric" />
       <recent name="C:\Users\Stefan\noder\sclab\front\views\Cluster" />
-      <recent name="C:\Users\Stefan\noder\sclab\front" />
-      <recent name="C:\Users\Stefan\noder\sclab\front\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Stefan\noder\sclab\aDump\unix" />
@@ -442,7 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1052" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1052" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25420168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -495,66 +405,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -646,20 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5589661">
-          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -688,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63480127">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/views/Cluster/Lab2cCluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -720,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07303974">
           <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5112782">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46938777">
           <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,23 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29215896">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/createDb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2556391">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,10 +624,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
+    <entry file="file://$PROJECT_DIR$/front/views/Data/Data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.3005525">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Data/dataController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3Task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3Task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1314917">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -828,50 +671,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Data/Data.html">
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3005525">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.03756906">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Data/dataController.js">
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11270718">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/createDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.726101">
+          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/style/scss/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01878453">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3cSysanaliz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21911922">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4Task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3756906">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6530612">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18259935">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.576923">
-          <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+        <state vertical-scroll-proportion="-20.923077">
+          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html">
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.55961335">
+          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3Task.html">
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05635359">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.1878453">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.269231">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14607948">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding />
         </state>
       </provider>
