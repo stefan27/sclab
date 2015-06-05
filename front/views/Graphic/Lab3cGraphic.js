@@ -9,7 +9,60 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
             $scope.imgData = {};
 
+
             $scope.initializeController = function () {
+                $scope.sliders = {};
+
+                $scope.sliders.sliderGrayPos = {
+                    x: 20,
+                    y: 43
+                };
+
+                $scope.sliders.sliderGrayChange = {
+                    min: 22,
+                    max: 62
+                };
+
+                $scope.sliders.sliderInvertPos = {
+                    x: 20,
+                    y: 103
+                };
+
+                $scope.sliders.sliderInvertChange = {
+                    min: 22,
+                    max: 62
+                };
+
+                $scope.sliders.sliderRPos = {
+                    x: 180,
+                    y: 138
+                };
+
+                $scope.sliders.sliderRChange = {
+                    min: 47,
+                    max: 302
+                };
+
+                $scope.sliders.sliderGPos = {
+                    x: 180,
+                    y: 163
+                };
+
+                $scope.sliders.sliderGChange = {
+                    min: 47,
+                    max: 302
+                };
+
+                $scope.sliders.sliderBPos = {
+                    x: 180,
+                    y: 188
+                };
+
+                $scope.sliders.sliderBChange = {
+                    min: 47,
+                    max: 302
+                };
+
                 graphicService.graphicLab3({}, $scope.graphicLab3Completed, $scope.graphicLab3Error);
             }
 
@@ -19,7 +72,7 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
             }
 
             $scope.graphicLab3Error = function (res, status) {
-                alert('error');
+
             }
 
 
@@ -48,11 +101,12 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
         return {
             scope: {
                 img: '=',
-                imgData: '='
+                imgData: '=',
+                sliders: '='
             },
             restrict: 'A',
 
-            link: function (scope, element, attr) {
+            link: function (scope, element, attrs) {
 
                 element[0].width = 300;
                 element[0].height = 400;
@@ -71,10 +125,38 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                     //__________________________IMAGE______________________________
 
                     if (scope.img && scope.img.img) {
-                        //scope.img.obj.width = 200;
                         ctx.drawImage(scope.img.img, 0, 0);
-                        //scope.img = undefined;
-                        scope.imgData.data = ctx.getImageData(0,0,300,400);
+                        scope.imgData.data = ctx.getImageData(0, 0, 300, 400);
+
+                        if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.max) {
+                            var Y = 0;
+
+                            for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+                                Y = 0.222 * scope.imgData.data.data[i] + 0.707 * scope.imgData.data.data[i + 1] +
+                                    0.071 * scope.imgData.data.data[i + 2];
+                                scope.imgData.data.data[i] = Y;
+                                scope.imgData.data.data[i + 1] = Y;
+                                scope.imgData.data.data[i + 2] = Y;
+                            }
+                        }
+
+                        if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.max) {
+
+                            for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+                                scope.imgData.data.data[i] = 255 - scope.imgData.data.data[i];
+                                scope.imgData.data.data[i + 1] = 255 - scope.imgData.data.data[i + 1];
+                                scope.imgData.data.data[i + 2] = 255 - scope.imgData.data.data[i + 2];
+                            }
+                        }
+
+                        for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+                            scope.imgData.data.data[i] += scope.sliders.sliderRPos.x - 180;
+                            scope.imgData.data.data[i + 1] += scope.sliders.sliderGPos.x - 180;
+                            scope.imgData.data.data[i + 2] += scope.sliders.sliderBPos.x - 180;
+                        }
+
+
+                        ctx.putImageData(scope.imgData.data, 0, 0);
                     }
 
                 }
@@ -85,12 +167,12 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                     });
                 });
 
-                scope.$watch('imgData.data', function () {
+                scope.$watch('sliders', function () {
                     $timeout(function () {
-                        //alert('ris');
                         draw();
                     });
-                });
+                }, true);
+
 
                 draw();
 
@@ -101,8 +183,7 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
     app.register.directive('slider', function ($timeout) {
         return {
             scope: {
-                img: '=',
-                imgData: '='
+                sliders: '='
             },
             restrict: 'A',
 
@@ -117,87 +198,263 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
                 var coord = {};
                 var delta = {};
-                var click = false;
-                var slider = {
-                    x: 200,
-                    y: 200
+
+                var sliderGrayClick = false;
+
+                var sliderGraySize = {
+                    w: 30,
+                    h: 13
                 };
-                var wSlider = 50;
-                var hSlider = 20;
 
+                var sliderInvertClick = false;
 
-                //__________________________DRAW______________________________
+                var sliderInvertSize = {
+                    w: 30,
+                    h: 13
+                };
+
+                var sliderRClick = false;
+
+                var sliderRSize = {
+                    w: 30,
+                    h: 13
+                };
+
+                var sliderGClick = false;
+
+                var sliderGSize = {
+                    w: 30,
+                    h: 13
+                };
+
+                var sliderBClick = false;
+
+                var sliderBSize = {
+                    w: 30,
+                    h: 13
+                };
 
                 function draw() {
 
                     ctx.clearRect(0, 0, w, h);
 
-                    //__________________________IMAGE______________________________
+                    ctx.font = "16px Roboto-Condensed";
+                    ctx.fillStyle = 'rgb(100,100,100)';
 
-                    //if (scope.img && scope.img.obj && scope.img.obj != undefined) {
-
-                    if(scope.imgData.data && scope.img) {
-
-                        //alert('sli');
-
-                        var Y = 0;
-
-                        for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
-                            Y = 0.222 * scope.imgData.data.data[i] + 0.707 * scope.imgData.data.data[i + 1] +
-                                0.071 * scope.imgData.data.data[i + 2];
-                            scope.imgData.data.data[i] = Y;
-                            scope.imgData.data.data[i + 1] = Y;
-                            scope.imgData.data.data[i + 2] = Y;
-                        }
-
-                        //ctx.putImageData(data, lena.offsetWidth + 10, 0);
-                        //lena.style.display = 'none';
+                    if (coord.x !== undefined || coord.y !== undefined) {
+                        ctx.fillText('  COORD: ' + coord.x + ' ' + coord.y, w - 125, h - 375);
                     }
 
-                    //__________________________SLIDER______________________________
+                    //__________________________GRAY______________________________
 
-                    if (click) {
-                        slider.x = coord.x - delta.x;
-                        slider.y = coord.y - delta.y;
+                    ctx.font = "14px Consolas";
+                    ctx.fillStyle = '#333333';
+
+                    ctx.fillText('Преобразование в полутоновое:', 20, 25);
+
+                    if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.min) {
+                        ctx.fillText('DISABLED', 110, 54);
+                    } else if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.max) {
+                        ctx.fillText('ENABLED', 110, 54);
+                    }
+
+                    if (sliderGrayClick) {
+                        if ((coord.x - delta.x) > scope.sliders.sliderGrayChange.min && (coord.x - delta.x) < scope.sliders.sliderGrayChange.max) {
+                            scope.sliders.sliderGrayPos.x = coord.x - delta.x;
+                        }
                     }
 
                     ctx.beginPath();
-                    ctx.moveTo(20, 20);
-                    ctx.lineTo(60, 20);
+                    ctx.moveTo(25, 50);
+                    ctx.lineTo(90, 50);
                     ctx.lineWidth = 4;
                     ctx.strokeStyle = 'rgb(225,225,225)';
                     ctx.stroke();
 
                     ctx.beginPath();
-                    canvasRadius(slider.x + 0.5, slider.y + 0.5, wSlider, hSlider, 5, 5, 5, 5);
+                    canvasRadius(scope.sliders.sliderGrayPos.x + 0.5, scope.sliders.sliderGrayPos.y + 0.5, sliderGraySize.w, sliderGraySize.h, 5, 5, 5, 5);
                     ctx.closePath();
                     ctx.lineWidth = 1;
                     ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    ctx.lineCap = 'round';
                     ctx.fillStyle = 'rgba(171,171,171,0.75)';
                     ctx.fill();
                     ctx.stroke();
 
-                    //__________________________TEXT______________________________
 
-                    ctx.font = "16px Roboto-Condensed";
-                    ctx.fillStyle = 'rgb(100,100,100)';
+                    //__________________________INVERT______________________________
 
-                    if (coord.x !== undefined || coord.y !== undefined) {
-                        ctx.fillText('  COORD: ' + coord.x + ' ' + coord.y, 5, 20);
+                    ctx.font = "14px Consolas";
+                    ctx.fillStyle = '#333333';
+
+                    ctx.fillText('Инвертирование:', 20, 85);
+
+                    if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.min) {
+                        ctx.fillText('DISABLED', 110, 114);
+                    } else if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.max) {
+                        ctx.fillText('ENABLED', 110, 114);
                     }
+
+                    if (sliderInvertClick) {
+                        if ((coord.x - delta.x) > scope.sliders.sliderInvertChange.min && (coord.x - delta.x) < scope.sliders.sliderInvertChange.max) {
+                            scope.sliders.sliderInvertPos.x = coord.x - delta.x;
+                        }
+                    }
+
+                    ctx.beginPath();
+                    ctx.moveTo(25, 110);
+                    ctx.lineTo(90, 110);
+                    ctx.lineWidth = 4;
+                    ctx.strokeStyle = 'rgb(225,225,225)';
+                    ctx.stroke();
+
+                    ctx.beginPath();
+                    canvasRadius(scope.sliders.sliderInvertPos.x + 0.5, scope.sliders.sliderInvertPos.y + 0.5, sliderInvertSize.w, sliderInvertSize.h, 5, 5, 5, 5);
+                    ctx.closePath();
+                    ctx.lineWidth = 1;
+                    ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    ctx.lineCap = 'round';
+                    ctx.fillStyle = 'rgba(171,171,171,0.75)';
+                    ctx.fill();
+                    ctx.stroke();
+
+                    //__________________________R______________________________
+
+                    ctx.font = "14px Consolas";
+                    ctx.fillStyle = '#333333';
+
+                    ctx.fillText('R:', 20, 148);
+
+                    ctx.fillText(scope.sliders.sliderRPos.x - 180, 335, 150);
+
+                    if (sliderRClick) {
+                        if ((coord.x - delta.x) > scope.sliders.sliderRChange.min && (coord.x - delta.x) < scope.sliders.sliderRChange.max) {
+                            scope.$apply(function () {
+                                scope.sliders.sliderRPos.x = coord.x - delta.x;
+                            });
+                        }
+                    }
+
+                    ctx.beginPath();
+                    ctx.moveTo(50, 145);
+                    ctx.lineTo(330, 145);
+                    ctx.lineWidth = 4;
+                    ctx.strokeStyle = 'rgb(225,225,225)';
+                    ctx.stroke();
+
+                    ctx.beginPath();
+                    canvasRadius(scope.sliders.sliderRPos.x + 0.5, scope.sliders.sliderRPos.y + 0.5, sliderRSize.w, sliderRSize.h, 5, 5, 5, 5);
+                    ctx.closePath();
+                    ctx.lineWidth = 1;
+                    ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    ctx.lineCap = 'round';
+                    ctx.fillStyle = 'rgba(171,171,171,0.75)';
+                    ctx.fill();
+                    ctx.stroke();
+
+                    //__________________________G______________________________
+
+                    ctx.font = "14px Consolas";
+                    ctx.fillStyle = '#333333';
+
+                    ctx.fillText('G:', 20, 170);
+
+                    ctx.fillText(scope.sliders.sliderGPos.x - 180, 335, 174);
+
+                    if (sliderGClick) {
+                        if ((coord.x - delta.x) > scope.sliders.sliderGChange.min && (coord.x - delta.x) < scope.sliders.sliderGChange.max) {
+                            scope.$apply(function () {
+                                scope.sliders.sliderGPos.x = coord.x - delta.x;
+                            });
+                        }
+                    }
+
+                    ctx.beginPath();
+                    ctx.moveTo(50, 170);
+                    ctx.lineTo(330, 170);
+                    ctx.lineWidth = 4;
+                    ctx.strokeStyle = 'rgb(225,225,225)';
+                    ctx.stroke();
+
+                    ctx.beginPath();
+                    canvasRadius(scope.sliders.sliderGPos.x + 0.5, scope.sliders.sliderGPos.y + 0.5, sliderGSize.w, sliderGSize.h, 5, 5, 5, 5);
+                    ctx.closePath();
+                    ctx.lineWidth = 1;
+                    ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    ctx.lineCap = 'round';
+                    ctx.fillStyle = 'rgba(171,171,171,0.75)';
+                    ctx.fill();
+                    ctx.stroke();
+
+                    //__________________________B______________________________
+
+                    ctx.font = "14px Consolas";
+                    ctx.fillStyle = '#333333';
+
+                    ctx.fillText('B:', 20, 195);
+
+                    ctx.fillText(scope.sliders.sliderBPos.x - 180, 335, 199);
+
+                    if (sliderBClick) {
+                        if ((coord.x - delta.x) > scope.sliders.sliderBChange.min && (coord.x - delta.x) < scope.sliders.sliderBChange.max) {
+                            scope.$apply(function () {
+                                scope.sliders.sliderBPos.x = coord.x - delta.x;
+                            });
+                        }
+                    }
+
+                    ctx.beginPath();
+                    ctx.moveTo(50, 195);
+                    ctx.lineTo(330, 195);
+                    ctx.lineWidth = 4;
+                    ctx.strokeStyle = 'rgb(225,225,225)';
+                    ctx.stroke();
+
+                    ctx.beginPath();
+                    canvasRadius(scope.sliders.sliderBPos.x + 0.5, scope.sliders.sliderBPos.y + 0.5, sliderBSize.w, sliderBSize.h, 5, 5, 5, 5);
+                    ctx.closePath();
+                    ctx.lineWidth = 1;
+                    ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    ctx.lineCap = 'round';
+                    ctx.fillStyle = 'rgba(171,171,171,0.75)';
+                    ctx.fill();
+                    ctx.stroke();
+
+
+
+
+                    //__________________________RESET______________________________
+
+                    //ctx.font = "14px Consolas";
+                    //ctx.fillStyle = '#333333';
+                    //
+                    //ctx.fillText('B:', 20, 195);
+
+
+                    //if (sliderBClick) {
+                    //    if ((coord.x - delta.x) > scope.sliders.sliderBChange.min && (coord.x - delta.x) < scope.sliders.sliderBChange.max) {
+                    //        scope.$apply(function () {
+                    //            scope.sliders.sliderBPos.x = coord.x - delta.x;
+                    //        });
+                    //    }
+                    //}
+                    //
+                    //ctx.beginPath();
+                    //canvasRadius(w-65 + 0.5, 40 + 0.5, 42, 20, 5, 5, 5, 5);
+                    //ctx.closePath();
+                    //ctx.lineWidth = 1;
+                    //ctx.strokeStyle = 'rgba(171,171,171,0.75)';
+                    //ctx.lineCap = 'round';
+                    //ctx.fillStyle = 'rgba(171,171,171,0.75)';
+                    //ctx.fill();
+                    //ctx.stroke();
                 }
 
-                scope.$watch('img.img', function () {
+                scope.$watch('sliders', function () {
                     $timeout(function () {
                         draw();
                     });
-                });
-
-                scope.$watch('imgData.data', function () {
-                    $timeout(function () {
-                        draw();
-                    });
-                });
+                }, true);
 
                 function canvasRadius(x, y, w, h, tl, tr, br, bl) {
                     var r = x + w, b = y + h;
@@ -223,30 +480,132 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
                 element.bind('mousedown', function (e) {
 
-                    if (coord.x !== undefined && coord.y !== undefined &&
-                        coord.x > slider.x && coord.x < slider.x + wSlider &&
-                        coord.y > slider.y && coord.y < slider.y + hSlider) {
+                        if (coord.x !== undefined && coord.y !== undefined) {
+                            if (coord.x > scope.sliders.sliderGrayPos.x &&
+                                coord.x < scope.sliders.sliderGrayPos.x + sliderGraySize.w &&
+                                coord.y > scope.sliders.sliderGrayPos.y &&
+                                coord.y < scope.sliders.sliderGrayPos.y + sliderGraySize.h) {
 
-                        delta.x = coord.x - slider.x;
-                        delta.y = coord.y - slider.y;
-                        click = true;
-                        draw();
+                                delta.x = coord.x - scope.sliders.sliderGrayPos.x;
+                                delta.y = coord.y - scope.sliders.sliderGrayPos.y;
+                                sliderGrayClick = true;
+                                draw();
+                            }
+                            else if (coord.x > scope.sliders.sliderInvertPos.x &&
+                                coord.x < scope.sliders.sliderInvertPos.x + sliderInvertSize.w &&
+                                coord.y > scope.sliders.sliderInvertPos.y &&
+                                coord.y < scope.sliders.sliderInvertPos.y + sliderInvertSize.h) {
+
+                                delta.x = coord.x - scope.sliders.sliderInvertPos.x;
+                                delta.y = coord.y - scope.sliders.sliderInvertPos.y;
+                                sliderInvertClick = true;
+                                draw();
+                            }
+                            else if (coord.x > scope.sliders.sliderRPos.x &&
+                                coord.x < scope.sliders.sliderRPos.x + sliderRSize.w &&
+                                coord.y > scope.sliders.sliderRPos.y &&
+                                coord.y < scope.sliders.sliderRPos.y + sliderRSize.h) {
+
+                                delta.x = coord.x - scope.sliders.sliderRPos.x;
+                                delta.y = coord.y - scope.sliders.sliderRPos.y;
+                                sliderRClick = true;
+                                draw();
+                            }
+                            else if (coord.x > scope.sliders.sliderGPos.x &&
+                                coord.x < scope.sliders.sliderGPos.x + sliderGSize.w &&
+                                coord.y > scope.sliders.sliderGPos.y &&
+                                coord.y < scope.sliders.sliderGPos.y + sliderGSize.h) {
+
+                                delta.x = coord.x - scope.sliders.sliderGPos.x;
+                                delta.y = coord.y - scope.sliders.sliderGPos.y;
+                                sliderGClick = true;
+                                draw();
+                            }
+                            else if (coord.x > scope.sliders.sliderBPos.x &&
+                                coord.x < scope.sliders.sliderBPos.x + sliderBSize.w &&
+                                coord.y > scope.sliders.sliderBPos.y &&
+                                coord.y < scope.sliders.sliderBPos.y + sliderBSize.h) {
+
+                                delta.x = coord.x - scope.sliders.sliderBPos.x;
+                                delta.y = coord.y - scope.sliders.sliderBPos.y;
+                                sliderBClick = true;
+                                draw();
+                            }
+                            //else if (coord.x > resetPos.x &&
+                            //    coord.x < resetPos.x + sliderBSize.w &&
+                            //    coord.y > scope.sliders.sliderBPos.y &&
+                            //    coord.y < scope.sliders.sliderBPos.y + sliderBSize.h) {
+                            //
+                            //    delta.x = coord.x - scope.sliders.sliderBPos.x;
+                            //    delta.y = coord.y - scope.sliders.sliderBPos.y;
+                            //    sliderBClick = true;
+                            //    draw();
+                            //}
+
+
+
+                            //w-65 + 0.5, 40 + 0.5, 42, 20,
+                        }
                     }
-                });
+                )
+                ;
 
                 element.bind('mouseup', function (e) {
 
-                    if (click) {
-                        click = false;
+                    if (sliderGrayClick) {
+                        sliderGrayClick = false;
+                        if (scope.sliders.sliderGrayPos.x < (scope.sliders.sliderGrayChange.max + scope.sliders.sliderGrayChange.min) / 2) {
+
+                            scope.$apply(function () {
+                                scope.sliders.sliderGrayPos.x = scope.sliders.sliderGrayChange.min;
+                            })
+                        }
+                        else if (scope.sliders.sliderGrayPos.x >= (scope.sliders.sliderGrayChange.max + scope.sliders.sliderGrayChange.min) / 2) {
+
+                            scope.$apply(function () {
+                                scope.sliders.sliderGrayPos.x = scope.sliders.sliderGrayChange.max;
+                            })
+                        }
                         draw();
                     }
+                    else if (sliderInvertClick) {
+                        sliderInvertClick = false;
+                        if (scope.sliders.sliderInvertPos.x < (scope.sliders.sliderInvertChange.max + scope.sliders.sliderInvertChange.min) / 2) {
+
+                            scope.$apply(function () {
+                                scope.sliders.sliderInvertPos.x = scope.sliders.sliderInvertChange.min;
+                            })
+                        }
+                        else if (scope.sliders.sliderInvertPos.x >= (scope.sliders.sliderInvertChange.max + scope.sliders.sliderInvertChange.min) / 2) {
+
+                            scope.$apply(function () {
+                                scope.sliders.sliderInvertPos.x = scope.sliders.sliderInvertChange.max;
+                            })
+                        }
+                        draw();
+                    }
+                    else if (sliderRClick) {
+                        sliderRClick = false;
+                        draw();
+                    }
+                    else if (sliderGClick) {
+                        sliderGClick = false;
+                        draw();
+                    }
+                    else if (sliderBClick) {
+                        sliderBClick = false;
+                        draw();
+                    }
+
+
                 });
 
                 draw();
 
             }
         }
-    }); //end Directive
+    })
+    ; //end Directive
 
 
     /*app.register.service('SceneService', function () {
@@ -331,4 +690,5 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
      ]);*/
 
 
-});
+})
+;

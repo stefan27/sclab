@@ -22,14 +22,14 @@ define(['app-conf', 'dataService',
 
             $scope.selectTask = function () {
                 $scope.selection = $scope.labItems[0];
-            }
+            };
 
             $scope.selectContent = function () {
                 $scope.selection = $scope.labItems[1];
-            }
+            };
 
             $scope.labItems = ['task', 'content'];
-            $scope.selection = $scope.labItems[0];
+            $scope.selection = $scope.labItems[1];
 
             $scope.initializeController = function () {
 

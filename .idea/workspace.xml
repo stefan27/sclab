@@ -2,20 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e264ea39-927f-4346-a319-bbc596bee5c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\data.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\font.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\lab.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\octicon.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\39cbfbb4659fbc6fb4a3e41e614685f4f310faa3\reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_min.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\40d767f9c2f453345bd94dd6cfb7177e25b9de1e\_tag-cloud.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\44d3fb8ea67fa4ee5d9f6a8632d34ba8c09eb00d\_ellipsis.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\44d3fb8ea67fa4ee5d9f6a8632d34ba8c09eb00d\_force-wrap.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\44d3fb8ea67fa4ee5d9f6a8632d34ba8c09eb00d\_nowrap.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\44d3fb8ea67fa4ee5d9f6a8632d34ba8c09eb00d\_replacement.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\5a5f431228a0c0b7bd3237c5d692ca470b8b41bd\_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\5a5f431228a0c0b7bd3237c5d692ca470b8b41bd\_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\5a5f431228a0c0b7bd3237c5d692ca470b8b41bd\_inline-block-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\5a5f431228a0c0b7bd3237c5d692ca470b8b41bd\_inline-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\6157d1080e9f226403e0dcb6ea1b6070a9fa3bc8\_hover-link.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\6157d1080e9f226403e0dcb6ea1b6070a9fa3bc8\_link-colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\6157d1080e9f226403e0dcb6ea1b6070a9fa3bc8\_unstyled-link.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_images.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_links.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_text.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\lists\_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\lists\_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\text\_replacement.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\7a6308f7f90c85f173003fe0c15f4bf330813bc3\_links.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\7a6308f7f90c85f173003fe0c15f4bf330813bc3\_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\7a6308f7f90c85f173003fe0c15f4bf330813bc3\_text.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\7a6308f7f90c85f173003fe0c15f4bf330813bc3\_units.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\7a6308f7f90c85f173003fe0c15f4bf330813bc3\_vertical_rhythm.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\80a08ae0808c847019e751052e59d8ecc7d96da2\_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\80a08ae0808c847019e751052e59d8ecc7d96da2\_general.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\80a08ae0808c847019e751052e59d8ecc7d96da2\_sprites.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\80a08ae0808c847019e751052e59d8ecc7d96da2\_tables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\917517206968043b7626a6f419118ed413dda7f5\_brightness.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\917517206968043b7626a6f419118ed413dda7f5\_contrast.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\b05298c583b25c8134ca111263869c4802536138\_alternating-rows-and-columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\b05298c583b25c8134ca111263869c4802536138\_borders.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\b05298c583b25c8134ca111263869c4802536138\_scaffolding.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\b67294a37d11c3052164a3018dd3b176d8f58f0d\_grid-background.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\c0d432d5c29f07de90f2d9a140ce888cc260f39f\_compass.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\cdb1ff401cba21ac788c0d2e95d9e3d507ddcc59\_base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\cdb1ff401cba21ac788c0d2e95d9e3d507ddcc59\_sprite-img.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_animation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_appearance.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_background-clip.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_background-origin.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_border-radius.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_box-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_box-sizing.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_deprecated-support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_filter.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_flexbox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_font-face.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_hyphenation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_images.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_opacity.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_regions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_text-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_transform.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_transition.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d9f8585d99edfb289ec659ec20fe1eb3bcea93a4\_user-interface.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\e816b7ab2cd691b0738a99a62f6e22ee01cc0ddb\_utilities.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\fc351df19f74662269d8b5a948ff3a79142cfbe9\_css3.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\fc351df19f74662269d8b5a948ff3a79142cfbe9\_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\fc351df19f74662269d8b5a948ff3a79142cfbe9\_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\fc351df19f74662269d8b5a948ff3a79142cfbe9\_utilities.scssc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab3.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/createDb.js" afterPath="$PROJECT_DIR$/back/createDb.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/lab.css" afterPath="$PROJECT_DIR$/front/style/css/lab.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/lab.scss" afterPath="$PROJECT_DIR$/front/style/scss/lab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/main.css" afterPath="$PROJECT_DIR$/front/style/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/main.js" afterPath="$PROJECT_DIR$/front/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/main.scss" afterPath="$PROJECT_DIR$/front/style/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme" afterPath="$PROJECT_DIR$/readme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/reset.css" afterPath="$PROJECT_DIR$/front/style/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/reset.scss" afterPath="$PROJECT_DIR$/front/style/scss/reset.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sclab.iws" />
@@ -41,37 +114,27 @@
         <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
+      <file leaf-file-name="Lab3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
+      <file leaf-file-name="Lab3cGraphic.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.269231">
-              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lab4cSysanaliz.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14607948">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.67991406">
+              <caret line="547" column="25" selection-start-line="547" selection-start-column="25" selection-end-line="547" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -112,8 +175,6 @@
         <option value="$PROJECT_DIR$/front/views/Cluster/Lab2cClusterTask.js" />
         <option value="$PROJECT_DIR$/front/views/Cluster/Lab2Task.html" />
         <option value="$PROJECT_DIR$/front/views/Cluster/Lab3.html" />
-        <option value="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
-        <option value="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
         <option value="$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js" />
         <option value="$PROJECT_DIR$/front/views/Numeric/Lab2.html" />
         <option value="$PROJECT_DIR$/front/views/Numeric/Lab2cNumeric.js" />
@@ -134,15 +195,17 @@
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3Task.html" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3.html" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab3cSysanaliz.js" />
-        <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
         <option value="$PROJECT_DIR$/front/main.js" />
         <option value="$PROJECT_DIR$/back/createDb.js" />
-        <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4Task.html" />
         <option value="$PROJECT_DIR$/front/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/front/style/scss/lab.scss" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4.html" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js" />
+        <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
+        <option value="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
+        <option value="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
       </list>
     </option>
   </component>
@@ -155,7 +218,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="960" />
-    <option name="width" value="960" />
+    <option name="width" value="963" />
     <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -181,8 +244,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,10 +293,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sysanaliz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -252,6 +309,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,6 +332,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,10 +415,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1052" extended-state="1" />
+    <frame x="960" y="0" width="963" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25420168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23109244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -378,13 +441,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19958203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25210086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23109244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -411,13 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back/models/fullLabModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -569,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5447514">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,20 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/models/itemModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46938777">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/models/fullLabModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back/handlers/dataController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29215896">
@@ -609,18 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/style/scss/octicon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.076923">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1314917">
           <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03756906">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="15" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,15 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11270718">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/createDb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.726101">
-          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.01878453">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21911922">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3756906">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,39 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6530612">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18259935">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55961335">
-          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,13 +751,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1878453">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/style/scss/lab.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.269231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding />
         </state>
@@ -785,8 +764,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14607948">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/models/itemModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/models/labModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/models/fullLabModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/createDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2556391">
+          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11385607">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67991406">
+          <caret line="547" column="25" selection-start-line="547" selection-start-column="25" selection-end-line="547" selection-end-column="25" />
           <folding />
         </state>
       </provider>
