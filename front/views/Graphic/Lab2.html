@@ -1,18 +1,18 @@
 <div ng-controller="Lab2cGraphic" ng-init="initializeController()">
 
-    <h3 class="content-h3">Choose string</h3>
+    <h3 class="content-h3">Выбирите строку</h3>
 
     <ul class="select">
         <li ng-repeat="str in strings" ng-click="insertStr(str.str)">{{str.str}}</li>
     </ul>
 
-    <h3 class="content-h3">Encode</h3>
+    <h3 class="content-h3">Шифруемая строка</h3>
     <textarea ng-change="encode()" ng-model="strEncode" rows="5"></textarea>
 
-    <h3 class="content-h3">Code</h3>
+    <h3 class="content-h3">Код</h3>
     <input class="text-input" type="text" ng-model="code" />
 
-    <h3 class="content-h3">Decode</h3>
+    <h3 class="content-h3">Разшифрованая строка</h3>
     <textarea ng-model="decode" rows="5"></textarea>
 
 </div>

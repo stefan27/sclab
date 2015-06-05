@@ -4,7 +4,11 @@
     <file url="file://$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Data/Data.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Data/dataController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2Task.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3Task.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" charset="UTF-8" />

@@ -19,6 +19,7 @@ define(['app-conf', 'dataService',
             $scope.urlHtml = './views/' + $routeParams.item + '/' + $routeParams.lab + '.html';
             $scope.urlContr = './views/' + $routeParams.item + '/' + $routeParams.lab + 'Controller';
             $scope.urlTask = './views/' + $routeParams.item + '/' + $routeParams.lab + 'Task.html';
+            $scope.urlCode = './views/' + $routeParams.item + '/' + $routeParams.lab + 'Code.html';
 
             $scope.selectTask = function () {
                 $scope.selection = $scope.labItems[0];
@@ -28,8 +29,12 @@ define(['app-conf', 'dataService',
                 $scope.selection = $scope.labItems[1];
             };
 
-            $scope.labItems = ['task', 'content'];
-            $scope.selection = $scope.labItems[1];
+            $scope.selectCode = function () {
+                $scope.selection = $scope.labItems[2];
+            };
+
+            $scope.labItems = ['task', 'content', 'code'];
+            $scope.selection = $scope.labItems[0];
 
             $scope.initializeController = function () {
 

@@ -75,7 +75,6 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
 
             }
 
-
         }]);  //endController
 
     app.register.directive('clickImg', function () {
@@ -128,6 +127,7 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                         ctx.drawImage(scope.img.img, 0, 0);
                         scope.imgData.data = ctx.getImageData(0, 0, 300, 400);
 
+                        //Полутоновое изображение
                         if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.max) {
                             var Y = 0;
 
@@ -140,6 +140,7 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                             }
                         }
 
+                        //Инверсия
                         if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.max) {
 
                             for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
@@ -149,6 +150,7 @@ define(['app-conf', 'graphicService', 'three'], function (app) {
                             }
                         }
 
+                        //изменение каналов RGB
                         for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
                             scope.imgData.data.data[i] += scope.sliders.sliderRPos.x - 180;
                             scope.imgData.data.data[i + 1] += scope.sliders.sliderGPos.x - 180;

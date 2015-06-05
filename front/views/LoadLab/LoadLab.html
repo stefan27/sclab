@@ -5,7 +5,8 @@
 
         <ul>
             <li ng-click="selectTask()"><span class="octicon octicon-question"></span> Задание</li>
-            <li ng-click="selectContent()"><span class="octicon octicon-code"></span> Решение</li>
+            <li ng-click="selectContent()"><span class="octicon octicon-check"></span> Решение</li>
+            <li ng-click="selectCode()"><span class="octicon octicon-code"></span> Код</li>
         </ul>
 
     </h1>
@@ -32,6 +33,11 @@
 
         <div ng-switch-when="task">
             <div ng-include="urlTask"></div>
+        </div>
+
+
+        <div ng-switch-when="code">
+            <div ng-include="urlCode"></div>
         </div>
 
         <div ng-switch-default></div>

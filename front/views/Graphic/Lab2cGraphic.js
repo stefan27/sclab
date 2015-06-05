@@ -6,7 +6,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
 
             $scope.encode = function() {
 
-                //_______compileDictionary
+                //Собираем словарь
 
                 var dict = [];
                 var symbThere = false;
@@ -29,7 +29,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                 }
 
 
-                //________divideByTheProportion
+                //делим на пропорции
 
                 var sum = 0;
 
@@ -38,7 +38,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                     sum += dict[i].n / $scope.strEncode.length;
                 }
 
-                //________aryphMethod
+                //Шифруем арифметическим методом
 
                 var beg = 0;
                 var end = 1;
@@ -75,7 +75,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                 $scope.code = (end+beg)/2;
 
 
-                //____________decode
+                //Расшифровуем
 
                 var eof = false;
                 $scope.decode = '';
