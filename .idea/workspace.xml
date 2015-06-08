@@ -2,21 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e264ea39-927f-4346-a319-bbc596bee5c9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\.idea\libraries\compass_library.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\data.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\font.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\lab.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\octicon.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Janna\noder\sclab\front\style\css\reset.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab3.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\0a89de42412f4f42c30c51ecdff83ec2e13516de\_hover-link.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\0a89de42412f4f42c30c51ecdff83ec2e13516de\_link-colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\0a89de42412f4f42c30c51ecdff83ec2e13516de\_unstyled-link.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3423832e496d2a1e5ef9d320a639361783b30e3c\_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3423832e496d2a1e5ef9d320a639361783b30e3c\_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3423832e496d2a1e5ef9d320a639361783b30e3c\_inline-block-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3423832e496d2a1e5ef9d320a639361783b30e3c\_inline-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_min.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\3a95a23ca9a6410357d2ca8015eb27473b62be5a\_tag-cloud.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\data.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\font.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\lab.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\octicon.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\41d084b6838eb013590d2183cbf1b849201f09e9\reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\420eda4154c6436d63d56e2818c38cd469e6e05d\_css3.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\420eda4154c6436d63d56e2818c38cd469e6e05d\_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\420eda4154c6436d63d56e2818c38cd469e6e05d\_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\420eda4154c6436d63d56e2818c38cd469e6e05d\_utilities.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\569aa1db273948ead0b61bb71bfdbf0208ebeb15\_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\569aa1db273948ead0b61bb71bfdbf0208ebeb15\_general.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\569aa1db273948ead0b61bb71bfdbf0208ebeb15\_sprites.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\569aa1db273948ead0b61bb71bfdbf0208ebeb15\_tables.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\59c9f76545d6e9fc4bd92515ccbf94485e9b018d\_links.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\59c9f76545d6e9fc4bd92515ccbf94485e9b018d\_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\59c9f76545d6e9fc4bd92515ccbf94485e9b018d\_text.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\59c9f76545d6e9fc4bd92515ccbf94485e9b018d\_units.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\59c9f76545d6e9fc4bd92515ccbf94485e9b018d\_vertical_rhythm.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_images.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_links.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_text.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\lists\_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\lists\_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\text\_replacement.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_animation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_appearance.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_background-clip.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_background-origin.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_background-size.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_border-radius.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_box-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_box-sizing.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_deprecated-support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_filter.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_flexbox.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_font-face.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_hyphenation.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_images.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_opacity.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_regions.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_text-shadow.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_transform.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_transition.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a31ebfabeb84d1566807dd23f9e8527f065436f7\_user-interface.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a52e271d08a5bf953fd05c0ea3da7ebe790d6af3\_ellipsis.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a52e271d08a5bf953fd05c0ea3da7ebe790d6af3\_force-wrap.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a52e271d08a5bf953fd05c0ea3da7ebe790d6af3\_nowrap.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\a52e271d08a5bf953fd05c0ea3da7ebe790d6af3\_replacement.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\c3a07a1cc2aa9fdaf02f514ced6d99826ae141f4\_utilities.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d109caeb6272c960d218cc5ba96f54015ff5208b\_brightness.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d109caeb6272c960d218cc5ba96f54015ff5208b\_contrast.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d6e58b9826cc7b46bbec446283cd06862b19b1d5\_alternating-rows-and-columns.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d6e58b9826cc7b46bbec446283cd06862b19b1d5\_borders.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d6e58b9826cc7b46bbec446283cd06862b19b1d5\_scaffolding.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\d885c2d29d0c16ab6e10c3d3575066d973a809c4\_compass.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\e5b2e3351b40fc49cc133ee8e979d19c1a8aaccd\_base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\e5b2e3351b40fc49cc133ee8e979d19c1a8aaccd\_sprite-img.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\e7eb7fd53f2055498b8e11a1295fb58580b8b9d1\_grid-background.scssc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/octicon.scss" afterPath="$PROJECT_DIR$/front/style/scss/octicon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/css/main.css" afterPath="$PROJECT_DIR$/front/style/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme" afterPath="$PROJECT_DIR$/readme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sclab.iml" afterPath="$PROJECT_DIR$/.idea/sclab.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -43,8 +112,8 @@
       <file leaf-file-name="readme" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08457711">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23737916">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -105,7 +174,6 @@
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4Task.html" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4.html" />
         <option value="$PROJECT_DIR$/front/views/Sysanaliz/Lab4cSysanaliz.js" />
-        <option value="$PROJECT_DIR$/front/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab3.html" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab2.html" />
         <option value="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
@@ -115,6 +183,7 @@
         <option value="$PROJECT_DIR$/front/style/scss/octicon.scss" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" />
         <option value="$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" />
+        <option value="$PROJECT_DIR$/front/style/scss/main.scss" />
         <option value="$PROJECT_DIR$/readme" />
       </list>
     </option>
@@ -127,9 +196,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="736" />
+    <option name="x" value="960" />
+    <option name="width" value="963" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,7 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,143 +241,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoadLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sclab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,26 +326,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="736" extended-state="1" />
+    <frame x="960" y="0" width="963" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29985008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29947644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23219815" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23219815" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23219815" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -699,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45945945">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27567568">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5595855">
           <caret line="68" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9174757">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2866779">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8279933">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5935919">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6429725">
           <caret line="156" column="37" selection-start-line="156" selection-start-column="37" selection-end-line="156" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0549273">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20067453">
           <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,22 +725,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2866779">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/style/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17200674">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.16906077">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08457711">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23737916">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
