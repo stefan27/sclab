@@ -4,7 +4,7 @@
         {{fullNameItem}}: {{lab.fullName | pInt}}
 
         <ul>
-            <li ng-click="selectTask()"><span class="octicon octicon-question"></span> Задание</li>
+            <li ng-click="selectTask()"><span class="octicon octicon-info"></span> Задание</li>
             <li ng-click="selectContent()"><span class="octicon octicon-check"></span> Решение</li>
             <li ng-click="selectCode()"><span class="octicon octicon-code"></span> Код</li>
         </ul>
@@ -36,7 +36,18 @@
         </div>
 
 
-        <div ng-switch-when="code">
+        <div class='code' ng-switch-when="code">
+
+            <div display-downmenu class="select-button">
+                <span class="octicon octicon-light-bulb"></span> Подсветка
+                <span class="octicon octicon-triangle-down"></span>
+                <ul>
+                    <li ng-repeat="style in styles | orderBy: 'str'" ng-click="selectStyle(style.name)">{{style.str}}</li>
+                </ul>
+            </div>
+
+            <br />
+
             <div ng-include="urlCode"></div>
         </div>
 

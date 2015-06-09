@@ -1,0 +1,47 @@
+<div hljs>
+
+    $scope.sample = [
+        55, 92, 72, 83, 81, 79, 54, 68, 82, 94, 65, 97, 99, 78, 82, 63, 90, 68, 87, 98, 95,
+        54, 93, 78, 62, 57, 88, 99, 94, 66, 73, 67, 90, 91, 83, 57, 56, 81, 83, 89, 91, 85, 102, 88,
+        97, 93, 58, 67, 93, 78, 85, 78, 85, 78, 108, 86, 91, 93, 88, 75, 68, 94, 104, 84, 101
+    ];
+
+    var firstMoment = 0;
+    var secondMoment = 0;
+
+    for (var i in $scope.sample) {
+        firstMoment += $scope.sample[i];
+        secondMoment += $scope.sample[i] * $scope.sample[i];
+    }
+
+    $scope.mean = firstMoment / $scope.sample.length;
+    $scope.shiftDis = secondMoment / $scope.sample.length - Math.pow(firstMoment / $scope.sample.length, 2);
+    $scope.unShiftDis = secondMoment / ($scope.sample.length - 1) - Math.pow(firstMoment / ($scope.sample.length - 1), 2);
+    $scope.deviation = Math.sqrt($scope.shiftDis);
+
+    var thirdMoment = 0;
+    var fourthMoment = 0;
+
+    for (var i in $scope.sample) {
+        thirdMoment += Math.pow($scope.sample[i] - $scope.mean, 3);
+        fourthMoment += Math.pow($scope.sample[i] - $scope.mean, 4);
+    }
+
+    $scope.koefAsym = thirdMoment / $scope.sample.length / Math.pow($scope.deviation, 3);
+    $scope.koefExscess = (fourthMoment / $scope.sample.length / Math.pow($scope.deviation, 4)) - 3;
+
+    var tTable = 2.36;
+    $scope.confidInterval = tTable * (Math.sqrt($scope.shiftDis) / Math.sqrt($scope.sample.length));
+    $scope.confidInterval = [Number($scope.mean - $scope.confidInterval), Number($scope.mean + $scope.confidInterval)];
+
+    $scope.mean = $scope.mean.toFixed(3);
+    $scope.shiftDis = $scope.shiftDis.toFixed(3);
+    $scope.unShiftDis = $scope.unShiftDis.toFixed(3);
+    $scope.deviation = $scope.deviation.toFixed(3);
+    $scope.koefAsym = $scope.koefAsym.toFixed(3);
+    $scope.koefExscess = $scope.koefExscess.toFixed(3);
+    $scope.confidInterval[0] = $scope.confidInterval[0].toFixed(3);
+    $scope.confidInterval[1] = $scope.confidInterval[1].toFixed(3);
+        
+</div>
+

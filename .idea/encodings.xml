@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/front/views/Cluster/Lab2Code.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Cluster/Lab2cCluster.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Cluster/Lab3Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Cluster/Lab3cCluster.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Data/Data.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Data/dataController.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2Task.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3Task.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Graphic/Lab3cGraphic.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Numeric/Lab1Code.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Numeric/Lab2Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab3Task.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4Code.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/front/views/Sysanaliz/Lab4Task.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/readme" charset="UTF-8" />
   </component>

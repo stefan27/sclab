@@ -17,14 +17,14 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                     return a - b;
                 });
 
-                //формирую массив слотов
+                //С„РѕСЂРјРёСЂСѓСЋ РјР°СЃСЃРёРІ СЃР»РѕС‚РѕРІ
                 $scope.slots = [];
                 var numSlots = 8;
                 var a = $scope.sample[0];
                 $scope.a = a;
                 var b = $scope.sample[$scope.sample.length - 1];
 
-                //делю на промежуток на 8 равных интервалов
+                //РґРµР»СЋ РЅР° РїСЂРѕРјРµР¶СѓС‚РѕРє РЅР° 8 СЂР°РІРЅС‹С… РёРЅС‚РµСЂРІР°Р»РѕРІ
                 for (var i = 1; i <= numSlots; i++) {
                     $scope.slots.push({
                         n: a + (b - a) * i / numSlots,
@@ -32,7 +32,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                     });
                 }
 
-                //подсчитую количество вхождения для каждого интервала
+                //РїРѕРґСЃС‡РёС‚СѓСЋ РєРѕР»РёС‡РµСЃС‚РІРѕ РІС…РѕР¶РґРµРЅРёСЏ РґР»СЏ РєР°Р¶РґРѕРіРѕ РёРЅС‚РµСЂРІР°Р»Р°
                 for (var i = 0; i < $scope.sample.length; i++) {
                     for (var j = 0; j < $scope.slots.length; j++) {
                         if (j === 0) {
@@ -50,12 +50,12 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                 $scope.slots[$scope.slots.length - 1].p++;
 
-                //узнаю пропорции, т.е делю на количество данных выборки
+                //СѓР·РЅР°СЋ РїСЂРѕРїРѕСЂС†РёРё, С‚.Рµ РґРµР»СЋ РЅР° РєРѕР»РёС‡РµСЃС‚РІРѕ РґР°РЅРЅС‹С… РІС‹Р±РѕСЂРєРё
                 for (var i = 0; i < numSlots; i++) {
                     $scope.slots[i].p /= $scope.sample.length;
                 }
 
-                //считаю частоты
+                //СЃС‡РёС‚Р°СЋ С‡Р°СЃС‚РѕС‚С‹
                 for (var i = 0; i < $scope.slots.length; i++) {
                     $scope.slots[i].f = $scope.slots[i].p /
                         (($scope.sample[$scope.sample.length - 1] - $scope.sample[0]) / 8);
@@ -63,7 +63,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                 $scope.values4lab();
 
-                $scope.numberChart = 0; //номер графика
+                $scope.numberChart = 0; //РЅРѕРјРµСЂ РіСЂР°С„РёРєР°
 
                 $scope.charts = [{
                     n: 0,
@@ -74,7 +74,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                 }];
             }
 
-            //Считаю все значения для лабораторной
+            //РЎС‡РёС‚Р°СЋ РІСЃРµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ Р»Р°Р±РѕСЂР°С‚РѕСЂРЅРѕР№
             $scope.values4lab = function () {
 
                 var firstMoment = 0;
@@ -153,12 +153,12 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                         var ctx = element[0].getContext('2d');
                         var w = element[0].width;
                         var h = element[0].height;
-                        var hatchStep = spx; //шаг малой штриховки
-                        var hatchSize = 4; //размер малой штриховки
-                        var bigHatchStep = 5 * hatchStep; //шаг большой штриховки
-                        var bigHatchSize = 3 * hatchSize; //размер большой штриховки
-                        var aHatch = Math.floor(Number(a) / 10) * 10; //начальный интервал
-                        var bHatch = Math.ceil(Number(b) / 10) * 10; //конечный интервал
+                        var hatchStep = spx; //С€Р°Рі РјР°Р»РѕР№ С€С‚СЂРёС…РѕРІРєРё
+                        var hatchSize = 4; //СЂР°Р·РјРµСЂ РјР°Р»РѕР№ С€С‚СЂРёС…РѕРІРєРё
+                        var bigHatchStep = 5 * hatchStep; //С€Р°Рі Р±РѕР»СЊС€РѕР№ С€С‚СЂРёС…РѕРІРєРё
+                        var bigHatchSize = 3 * hatchSize; //СЂР°Р·РјРµСЂ Р±РѕР»СЊС€РѕР№ С€С‚СЂРёС…РѕРІРєРё
+                        var aHatch = Math.floor(Number(a) / 10) * 10; //РЅР°С‡Р°Р»СЊРЅС‹Р№ РёРЅС‚РµСЂРІР°Р»
+                        var bHatch = Math.ceil(Number(b) / 10) * 10; //РєРѕРЅРµС‡РЅС‹Р№ РёРЅС‚РµСЂРІР°Р»
 
                         ctx.beginPath();
 
@@ -166,8 +166,8 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                         ctx.clearRect(0, 0, w, h);
                         ctx.fillRect(0, 0, w, h);
 
-                        ctx.lineCap = "round"; // сглаживание концов линии
-                        ctx.lineJoin = "round"; // сглаживание перегибов линии
+                        ctx.lineCap = "round"; // СЃРіР»Р°Р¶РёРІР°РЅРёРµ РєРѕРЅС†РѕРІ Р»РёРЅРёРё
+                        ctx.lineJoin = "round"; // СЃРіР»Р°Р¶РёРІР°РЅРёРµ РїРµСЂРµРіРёР±РѕРІ Р»РёРЅРёРё
                         ctx.lineWidth = 1;
 
                         //__________________________TEXT______________________________
@@ -179,10 +179,10 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                         //__________________________CURSOR______________________________
 
                         if (sizeCursor) {
-                            ctx.moveTo(coord.x - sizeCursor, coord.y); //гориз линия
+                            ctx.moveTo(coord.x - sizeCursor, coord.y); //РіРѕСЂРёР· Р»РёРЅРёСЏ
                             ctx.lineTo(coord.x + sizeCursor, coord.y);
 
-                            ctx.moveTo(coord.x, coord.y - sizeCursor); //гориз линия
+                            ctx.moveTo(coord.x, coord.y - sizeCursor); //РіРѕСЂРёР· Р»РёРЅРёСЏ
                             ctx.lineTo(coord.x, coord.y + sizeCursor);
                         }
 
@@ -190,7 +190,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                         //__________________________COORD PLANE______________________________
 
-                        //смещаю начало отрисовки в левый нижний угол
+                        //СЃРјРµС‰Р°СЋ РЅР°С‡Р°Р»Рѕ РѕС‚СЂРёСЃРѕРІРєРё РІ Р»РµРІС‹Р№ РЅРёР¶РЅРёР№ СѓРіРѕР»
                         if (center.x === undefined || center.y === undefined) {
                             if (w % 2 !== 0) {
                                 center.x = 0.1 * h + 0;
@@ -201,11 +201,11 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                             }
                         }
 
-                        //смещаю начало отрисовки в левый нижний угол
+                        //СЃРјРµС‰Р°СЋ РЅР°С‡Р°Р»Рѕ РѕС‚СЂРёСЃРѕРІРєРё РІ Р»РµРІС‹Р№ РЅРёР¶РЅРёР№ СѓРіРѕР»
                         ctx.translate(center.x, center.y);
 
                         if (mouseClick) {
-                            //смещай график при передвижении мыши
+                            //СЃРјРµС‰Р°Р№ РіСЂР°С„РёРє РїСЂРё РїРµСЂРµРґРІРёР¶РµРЅРёРё РјС‹С€Рё
                             ctx.translate(coord.x - downPos.x, coord.y - downPos.y);
                         }
 
@@ -213,18 +213,18 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                         ctx.strokeStyle = '#A6A6A6';
 
-                        ctx.moveTo(0, 0); //гориз линия
+                        ctx.moveTo(0, 0); //РіРѕСЂРёР· Р»РёРЅРёСЏ
                         ctx.lineTo(4 * w, 0);
-                        ctx.moveTo(0, -4 * h); //верт линия
+                        ctx.moveTo(0, -4 * h); //РІРµСЂС‚ Р»РёРЅРёСЏ
                         ctx.lineTo(0, 0);
 
-                        //рисую горизонтальную малую штриховку
+                        //СЂРёСЃСѓСЋ РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅСѓСЋ РјР°Р»СѓСЋ С€С‚СЂРёС…РѕРІРєСѓ
                         for (var i = hatchStep; i <= 8 * w / 2; i += hatchStep) {
                             ctx.moveTo(i + 0, 0);
                             ctx.lineTo(i + 0, hatchSize);
                         }
 
-                        //рисую вертикальную малую штриховку
+                        //СЂРёСЃСѓСЋ РІРµСЂС‚РёРєР°Р»СЊРЅСѓСЋ РјР°Р»СѓСЋ С€С‚СЂРёС…РѕРІРєСѓ
                         for (var i = -hatchStep; i >= -8 * w / 2; i -= hatchStep) {
                             ctx.moveTo(-hatchSize, i + 0);
                             ctx.lineTo(0, i + 0);
@@ -237,32 +237,32 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                         ctx.font = "bold 9px Helvetica, 'Trebuchet MS', sans-serif";
                         ctx.fillStyle = '#393939';
 
-                        //рисую горизонтальную большую штриховку
+                        //СЂРёСЃСѓСЋ РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅСѓСЋ Р±РѕР»СЊС€СѓСЋ С€С‚СЂРёС…РѕРІРєСѓ
                         for (var i = bigHatchStep; i <= 8 * w / 2; i += bigHatchStep) {
                             ctx.moveTo(i + 0, 0);
                             ctx.lineTo(i + 0, bigHatchSize);
                         }
 
-                        //рисую вертикальную большую штриховку
+                        //СЂРёСЃСѓСЋ РІРµСЂС‚РёРєР°Р»СЊРЅСѓСЋ Р±РѕР»СЊС€СѓСЋ С€С‚СЂРёС…РѕРІРєСѓ
                         for (var i = -bigHatchStep; i >= -8 * w / 2; i -= bigHatchStep) {
                             ctx.moveTo(-bigHatchSize, i + 0);
                             ctx.lineTo(0, i + 0);
                         }
 
                         if (scope.numberChart === 0) {
-                            //рисую значения горизонтальной штриховки
+                            //СЂРёСЃСѓСЋ Р·РЅР°С‡РµРЅРёСЏ РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕР№ С€С‚СЂРёС…РѕРІРєРё
                             for (var i = -2 * bigHatchStep, j = aHatch; j <= bHatch; j += 10, i -= bigHatchStep) {
                                 ctx.fillText(j, -i - 5, 2.2 * bigHatchSize);
                             }
 
-                            //рисую значения вертикальной штриховки
+                            //СЂРёСЃСѓСЋ Р·РЅР°С‡РµРЅРёСЏ РІРµСЂС‚РёРєР°Р»СЊРЅРѕР№ С€С‚СЂРёС…РѕРІРєРё
                             for (var i = -bigHatchStep, j = 0.1; j <= 1; j += 0.1, i -= bigHatchStep) {
                                 ctx.fillText(j.toFixed(1), -2 * bigHatchSize, i + 4);
                             }
                         }
                         else if (scope.numberChart === 1) {
 
-                            //рисую значения горизонтальной штриховки
+                            //СЂРёСЃСѓСЋ Р·РЅР°С‡РµРЅРёСЏ РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕР№ С€С‚СЂРёС…РѕРІРєРё
                             if (spx > 7) {
                                 for (var i = -bigHatchStep, j = 0; j < scope.slots.length; j++, i -= bigHatchStep) {
                                     ctx.fillText(scope.slots[j].n.toFixed(3), -i - 13, 2.2 * bigHatchSize);
@@ -270,12 +270,12 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                             }
 
                             var max = scope.slots[0].f;
-                            //нахожу максимумальную частоту в слотах
+                            //РЅР°С…РѕР¶Сѓ РјР°РєСЃРёРјСѓРјР°Р»СЊРЅСѓСЋ С‡Р°СЃС‚РѕС‚Сѓ РІ СЃР»РѕС‚Р°С…
                             for (var i = 1; i < scope.slots.length; i++) {
                                 if (scope.slots[i].f > max) max = scope.slots[i].f;
                             }
 
-                            //рисую значения вертикальной штриховки
+                            //СЂРёСЃСѓСЋ Р·РЅР°С‡РµРЅРёСЏ РІРµСЂС‚РёРєР°Р»СЊРЅРѕР№ С€С‚СЂРёС…РѕРІРєРё
                             for (var i = -bigHatchStep, j = Math.ceil(max * 100) / 100 / 8;
                                  j <= Math.ceil(max * 100) / 100;
                                  j += Math.ceil(max * 100) / 100 / 8, i -= bigHatchStep) {
@@ -291,7 +291,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                         ctx.strokeStyle = '#DFDFDF';
 
-                        //рисую вертикальную большую штриховку
+                        //СЂРёСЃСѓСЋ РІРµСЂС‚РёРєР°Р»СЊРЅСѓСЋ Р±РѕР»СЊС€СѓСЋ С€С‚СЂРёС…РѕРІРєСѓ
                         for (var i = -bigHatchStep; i >= -8 * w / 2; i -= bigHatchStep) {
                             ctx.moveTo(0, i + 0);
                             ctx.lineTo(8 * w / 2, i + 0);
@@ -308,7 +308,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
                             ctx.lineWidth = 2;
                             ctx.strokeStyle = '#315EA0';
 
-                            //рисую первую часть графика
+                            //СЂРёСЃСѓСЋ РїРµСЂРІСѓСЋ С‡Р°СЃС‚СЊ РіСЂР°С„РёРєР°
                             var begW = 2 * bigHatchStep + (a - aHatch) * (spx / 2);
                             var begH = 10 * bigHatchStep * scope.slots[0].p;
 
@@ -317,7 +317,7 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                             begW = begW + (scope.slots[0].n - a) * (spx / 2);
 
-                            //рисую остальной график
+                            //СЂРёСЃСѓСЋ РѕСЃС‚Р°Р»СЊРЅРѕР№ РіСЂР°С„РёРє
                             for (var i = 1; i < scope.slots.length; i++) {
 
                                 for (var j = begH; j < (begH + 10 * bigHatchStep * scope.slots[i].p) - 1; j += 8) {
@@ -345,11 +345,11 @@ define(['app-conf', 'numericService', 'alertsService'], function (app) {
 
                             ctx.lineWidth = spx * 3;
                             ctx.strokeStyle = '#315EA0';
-                            ctx.lineCap = "butt"; // несглаживание концов линии
+                            ctx.lineCap = "butt"; // РЅРµСЃРіР»Р°Р¶РёРІР°РЅРёРµ РєРѕРЅС†РѕРІ Р»РёРЅРёРё
 
                             var begW = bigHatchStep;
 
-                            //рисую график
+                            //СЂРёСЃСѓСЋ РіСЂР°С„РёРє
                             for (var i = 0; i < scope.slots.length; i++) {
                                 ctx.moveTo(begW, 0);
                                 ctx.lineTo(begW, -scope.slots[i].f * 25 * 8 * bigHatchStep);

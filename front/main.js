@@ -17,6 +17,13 @@ require.config({
         'stats': 'scripts/stats',
         'three': 'scripts/three',
 
+        'highlight': 'scripts/highlight.pack',
+        'angular-highlight': 'scripts/angular-highlightjs',
+
+        'angular-css-injector': 'scripts/angular-css-injector',
+
+
+
         'ajaxService': 'services/AjaxServices',
         'alertsService': 'services/AlertsServices',
 
@@ -47,6 +54,7 @@ require.config({
     shim: {
         'angularAMD': ['angular'],
         'angular-route': ['angular']
+
     },
 
     // kick start application

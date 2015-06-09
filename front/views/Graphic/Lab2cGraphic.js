@@ -1,12 +1,15 @@
 "use strict";
 
-define(['app-conf', 'graphicService', 'alertsService'], function (app) {
-    app.register.controller('Lab2cGraphic', ['$scope', '$rootScope', '$location', 'graphicService', 'alertsService',
+define(['app-conf', 'graphicService', 'alertsService', 'highlight',
+    'angular-highlight'], function (app) {
+
+    app.register.controller('Lab2cGraphic', ['$scope', '$rootScope', '$location',
+        'graphicService', 'alertsService',
         function ($scope, $rootScope, $location, graphicService, alertsService) {
 
-            $scope.encode = function() {
+            $scope.encode = function () {
 
-                //Ñîáèðàåì ñëîâàðü
+                //Ð¡Ð¾Ð±Ð¸Ñ€Ð°ÐµÐ¼ ÑÐ»Ð¾Ð²Ð°Ñ€ÑŒ
 
                 var dict = [];
                 var symbThere = false;
@@ -29,7 +32,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                 }
 
 
-                //äåëèì íà ïðîïîðöèè
+                //Ð´ÐµÐ»Ð¸Ð¼ Ð½Ð° Ð¿Ñ€Ð¾Ð¿Ð¾Ñ€Ñ†Ð¸Ð¸
 
                 var sum = 0;
 
@@ -38,7 +41,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                     sum += dict[i].n / $scope.strEncode.length;
                 }
 
-                //Øèôðóåì àðèôìåòè÷åñêèì ìåòîäîì
+                //Ð¨Ð¸Ñ„Ñ€ÑƒÐµÐ¼ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¼ Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð¼
 
                 var beg = 0;
                 var end = 1;
@@ -72,10 +75,10 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                     }
                 }
 
-                $scope.code = (end+beg)/2;
+                $scope.code = (end + beg) / 2;
 
 
-                //Ðàñøèôðîâóåì
+                //Ð Ð°ÑÑˆÐ¸Ñ„Ñ€Ð¾Ð²ÑƒÐµÐ¼
 
                 var eof = false;
                 $scope.decode = '';
@@ -91,7 +94,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                         if (j === 0) {
                             if ($scope.code >= dict[0].b && $scope.code <= dict[0].r) {
 
-                                if(dict[0].s === '!') {
+                                if (dict[0].s === '!') {
                                     eof = true;
                                 }
 
@@ -113,7 +116,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                         else {
                             if ($scope.code >= dict[j - 1].r && $scope.code <= dict[j].r) {
 
-                                if(dict[j].s === '!') {
+                                if (dict[j].s === '!') {
                                     eof = true;
                                 }
 
@@ -145,7 +148,7 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
             $scope.decode = '';
 
 
-            $scope.insertStr = function(str) {
+            $scope.insertStr = function (str) {
                 $scope.strEncode = str;
                 $scope.encode();
             }
@@ -156,15 +159,17 @@ define(['app-conf', 'graphicService', 'alertsService'], function (app) {
                 $scope.encode();
             }
 
-            $scope.graphicLab2Completed = function(res, status) {
+            $scope.graphicLab2Completed = function (res, status) {
                 $scope.strings = JSON.parse(res.strings);
                 $scope.encode();
             }
 
-            $scope.graphicLab2Error = function(res, status) {
+            $scope.graphicLab2Error = function (res, status) {
                 alert('error');
             }
 
         }
     ]);
+
+
 });

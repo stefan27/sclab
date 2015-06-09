@@ -4,9 +4,10 @@
 @import "octicon";
 @import "data";
 @import "lab";
+@import "monokai_sublime";
 
 $fontMain: Helvetica, sans-serif;
-$fontHeader:  sans-serif, Helvetica;
+$fontHeader: sans-serif, Helvetica;
 $fontRoboto: Roboto-Condensed, Helvetica, sans-serif;
 $fontP: sans-serif, Helvetica;
 
@@ -17,6 +18,29 @@ $colorLineHover: #989898;
 $colorLink: #4183C4;
 $colorBackLight: #ffffff;
 
+@mixin rad($size:3px) {
+    -webkit-border-radius: $size;
+    -moz-border-radius: $size;
+    border-radius: $size;
+}
+
+@mixin rad-top($size:3px) {
+    -webkit-border-top-left-radius: $size;
+    -webkit-border-top-right-radius: $size;
+    -moz-border-radius-topleft: $size;
+    -moz-border-radius-topright: $size;
+    border-top-left-radius: $size;
+    border-top-right-radius: $size;;
+}
+
+@mixin rad-bottom($size:3px) {
+    -webkit-border-bottom-left-radius: $size;
+    -webkit-border-bottom-right-radius: $size;
+    -moz-border-radius-bottomleft: $size;
+    -moz-border-radius-bottomright: $size;
+    border-bottom-left-radius: $size;
+    border-bottom-right-radius: $size;;
+}
 
 /*_____________________________EXEC________________________*/
 
@@ -27,7 +51,7 @@ $colorBackLight: #ffffff;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: image-url('logo-hover.png') no-repeat 50% 50% ;
+    background: image-url('logo-hover.png') no-repeat 50% 50%;
     background-size: auto 500px;
 }
 
@@ -324,6 +348,103 @@ canvas {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
+/*_____________________________STYLE CODE______________________*/
+
+pre {
+    clear: both;
+    margin-top: 20px;
+
+    code {
+        @include rad(4px);
+    }
+}
+
+div.select-button {
+    float: right;
+    clear: both;
+    height: 30px;
+    padding-left: 5px;
+    @include rad(3px);
+    font: bold 13px $fontMain;
+    width: 115px;
+    line-height: 30px;
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+
+    &:hover {
+        background-image: -webkit-linear-gradient(#eee, #ddd);
+        cursor: pointer;
+    }
+
+    .octicon-light-bulb {
+        font-size: 20px;
+    }
+
+    .octicon-triangle-down {
+        font-size: 14px;
+    }
+
+    ul {
+        display: none;
+        position: relative;
+        right: 20px;
+        width: 150px;
+        background-color: $colorBackLight;
+        padding: 4px 0;
+        @include rad(4px);
+        border: 1px solid $colorLine;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+
+        li {
+            height: 25px;
+            font: 15px $fontMain;
+            line-height: 25px;
+            padding-left: 12px;
+
+            &:hover {
+                background-color: $colorLink;
+                color: #ffffff;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

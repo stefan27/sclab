@@ -1,37 +1,38 @@
+<div hljs>
 
-<pre><xmp>
+        //Полутоновое изображение
 
-            //Полутоновое изображение
-            if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.max) {
-                var Y = 0;
+        if (scope.sliders.sliderGrayPos.x == scope.sliders.sliderGrayChange.max) {
+            var Y = 0;
 
-                for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
-                    Y = 0.222 * scope.imgData.data.data[i] + 0.707 * scope.imgData.data.data[i + 1] +
-                        0.071 * scope.imgData.data.data[i + 2];
-                    scope.imgData.data.data[i] = Y;
-                    scope.imgData.data.data[i + 1] = Y;
-                    scope.imgData.data.data[i + 2] = Y;
-                }
-            }
-
-            //Инверсия
-            if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.max) {
-
-                for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
-                    scope.imgData.data.data[i] = 255 - scope.imgData.data.data[i];
-                    scope.imgData.data.data[i + 1] = 255 - scope.imgData.data.data[i + 1];
-                    scope.imgData.data.data[i + 2] = 255 - scope.imgData.data.data[i + 2];
-                }
-            }
-
-            //изменение каналов RGB
             for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
-                scope.imgData.data.data[i] += scope.sliders.sliderRPos.x - 180;
-                scope.imgData.data.data[i + 1] += scope.sliders.sliderGPos.x - 180;
-                scope.imgData.data.data[i + 2] += scope.sliders.sliderBPos.x - 180;
+                Y = 0.222 * scope.imgData.data.data[i] + 0.707 * scope.imgData.data.data[i + 1] +
+                    0.071 * scope.imgData.data.data[i + 2];
+                scope.imgData.data.data[i] = Y;
+                scope.imgData.data.data[i + 1] = Y;
+                scope.imgData.data.data[i + 2] = Y;
             }
+        }
 
 
+        //Инверсия
 
+        if (scope.sliders.sliderInvertPos.x == scope.sliders.sliderInvertChange.max) {
 
-</xmp></pre>
+            for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+                scope.imgData.data.data[i] = 255 - scope.imgData.data.data[i];
+                scope.imgData.data.data[i + 1] = 255 - scope.imgData.data.data[i + 1];
+                scope.imgData.data.data[i + 2] = 255 - scope.imgData.data.data[i + 2];
+            }
+        }
+
+        //изменение каналов RGB
+
+        for (var i = 0; i < scope.imgData.data.data.length; i += 4) {
+            scope.imgData.data.data[i] += scope.sliders.sliderRPos.x - 180;
+            scope.imgData.data.data[i + 1] += scope.sliders.sliderGPos.x - 180;
+            scope.imgData.data.data[i + 2] += scope.sliders.sliderBPos.x - 180;
+        }
+        
+</div>
+

@@ -109,11 +109,6 @@ function createModels1(cb) {
             topic: 'По элементная(по пиксельная) обработка изображения',
             task: 'http://vk.com/club42643648?w=wall-42643648_6023%2Fall'
         }, {
-            nameItem: 'Graphic',
-            name: 'Lab4',
-            fullName: 'Лаб4',
-            task: 'http://vk.com/club42643648?w=wall-42643648_6028%2Fall'
-        }, {
             nameItem: 'Cluster',
             name: 'Lab2',
             fullName: 'Лаб2',

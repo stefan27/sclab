@@ -1,8 +1,5 @@
-
-<pre><xmp>
-
-      
-            $scope.encode = function() {
+<div hljs>
+	  $scope.encode = function () {
 
                 //Собираем словарь
 
@@ -37,7 +34,6 @@
                 }
 
                 //Шифруем арифметическим методом
-
                 var beg = 0;
                 var end = 1;
                 var oldBeg = 0;
@@ -70,7 +66,7 @@
                     }
                 }
 
-                $scope.code = (end+beg)/2;
+                $scope.code = (end + beg) / 2;
 
 
                 //Расшифровуем
@@ -89,7 +85,7 @@
                         if (j === 0) {
                             if ($scope.code >= dict[0].b && $scope.code <= dict[0].r) {
 
-                                if(dict[0].s === '!') {
+                                if (dict[0].s === '!') {
                                     eof = true;
                                 }
 
@@ -111,7 +107,7 @@
                         else {
                             if ($scope.code >= dict[j - 1].r && $scope.code <= dict[j].r) {
 
-                                if(dict[j].s === '!') {
+                                if (dict[j].s === '!') {
                                     eof = true;
                                 }
 
@@ -135,6 +131,5 @@
 
                 }
             }
+</div>
 
-
-</xmp></pre>

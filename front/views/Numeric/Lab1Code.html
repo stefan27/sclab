@@ -1,0 +1,92 @@
+<div hljs>
+
+    $scope.a = 1;
+    $scope.b = 2;
+
+    $scope.n = 10;
+    $scope.h = ($scope.b - $scope.a) / $scope.n;
+
+    $scope.X = [-0.97390, -0.86506, -0.67940, -0.43339, -0.14887,
+        0.14887, 0.43339, 0.67940, 0.86506, 0.97390
+    ];
+
+    $scope.A = [0.06667, 0.14945, 0.21908, 0.26926, 0.29552,
+        0.29552, 0.26926, 0.21908, 0.14945, 0.06667
+    ];
+
+    $scope.myFunc = function (x) {
+        return 3 * x + 4 * Math.log(x);
+    }
+
+    $scope.gauss = function () {
+        var res = 0;
+
+        for (var i = 0; i < $scope.n; i++) {
+            var Z = ($scope.a + $scope.b) / 2 + ($scope.b - $scope.a) / 2 * $scope.X[i];
+            res += $scope.A[i] * $scope.myFunc(Z);
+        }
+
+        $scope.gauss = (($scope.b - $scope.a) / 2) * res;
+    }
+
+    $scope.simpson = function () {
+        var sumOdd = 0;
+        var sumEven = 0;
+
+        for (var i = 1; i < $scope.n; i += 2) {
+            sumOdd += $scope.myFunc($scope.a + i * $scope.h);
+        }
+
+        for (var i = 2; i < $scope.n - 1; i += 2) {
+            sumEven += $scope.myFunc($scope.a + i * $scope.h);
+        }
+
+        $scope.simpson = ($scope.h / 3) * ($scope.myFunc($scope.a) +
+            4 * sumOdd + 2 * sumEven + $scope.myFunc($scope.b));
+    }
+
+    $scope.trapez = function () {
+
+        var sum1 = ($scope.h / 2) * ($scope.myFunc($scope.a) + $scope.myFunc($scope.b));
+        var sum2 = 0;
+
+        for (var i = 1; i < $scope.n - 1; i++) {
+            sum2 += $scope.myFunc($scope.a + i * $scope.h);
+        }
+
+        $scope.trapez = sum1 + $scope.h * sum2;
+    }
+
+    $scope.rect = function () {
+
+        // Left
+        var sumLeft = 0;
+
+        for (var i = 0; i < ($scope.n - 1); i++) {
+            sumLeft += $scope.myFunc($scope.a + i * $scope.h);
+        }
+        sumLeft = $scope.h * sumLeft;
+
+        // Right
+        var sumRight = 0;
+        for (var i = 1; i < $scope.n; i++) {
+            sumRight += $scope.myFunc($scope.a + i * $scope.h);
+        }
+        sumRight = $scope.h * sumRight;
+
+        // Middle
+        var sumMiddle = 0;
+        for (var i = 0; i < $scope.n; i++) {
+            sumMiddle += $scope.myFunc($scope.a + (i + 0.5) * $scope.h);
+        }
+        sumMiddle = $scope.h * sumMiddle;
+
+        $scope.rect = {
+            l: sumLeft,
+            m: sumMiddle,
+            r: sumRight
+        };
+    }
+        
+</div>
+
