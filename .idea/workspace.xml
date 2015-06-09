@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e264ea39-927f-4346-a319-bbc596bee5c9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\data.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\font.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\lab.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\octicon.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\style\css\reset.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\views\Numeric\Lab1Task.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stefan\noder\sclab\front\views\Numeric\Lab2Task.html" afterPath="" />
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\css3\_background-size.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_background-size.scssc" />
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\lists\_bullets.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" />
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_clearfix.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" />
@@ -24,25 +16,6 @@
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\utilities\general\_reset.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_reset.scssc" />
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\_support.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" />
       <change type="MODIFICATION" beforePath="C:\Users\Stefan\noder\sclab\.sass-cache\75fcaf1b4852ceb732871195e41567cc2a7d8997\C%058\ruby\lib\ruby\gems\2.2.0\gems\compass-core-1.0.3\stylesheets\compass\typography\_text.scssc" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/ruby/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_text.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/lab.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/octicon.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/octicon.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" afterPath="$PROJECT_DIR$/.sass-cache/39cbfbb4659fbc6fb4a3e41e614685f4f310faa3/reset.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2Code.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2Code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Cluster/Lab2cCluster.js" afterPath="$PROJECT_DIR$/front/views/Cluster/Lab2cCluster.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab2cGraphic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/Graphic/Lab3Code.html" afterPath="$PROJECT_DIR$/front/views/Graphic/Lab3Code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" afterPath="$PROJECT_DIR$/front/views/LoadLab/LoadLabController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back/createDb.js" afterPath="$PROJECT_DIR$/back/createDb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/lab.scss" afterPath="$PROJECT_DIR$/front/style/scss/lab.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/main.js" afterPath="$PROJECT_DIR$/front/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/main.scss" afterPath="$PROJECT_DIR$/front/style/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/style/scss/octicon.scss" afterPath="$PROJECT_DIR$/front/style/scss/octicon.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme" afterPath="$PROJECT_DIR$/readme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sclab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -359,7 +332,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1052" extended-state="1" />
+    <frame x="960" y="0" width="960" height="1052" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30042017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
